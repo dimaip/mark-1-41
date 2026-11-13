@@ -22,7 +22,7 @@
         { "n": 40, "greek": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρὸς παρακαλῶν αὐτὸν [καὶ γονυπετῶν] καὶ λέγων αὐτῷ ὅτι ἐὰν θέλῃς δύνασαί με καθαρίσαι.", "english": "A leper comes to him, begging him [and kneeling] and saying to him, “If you will, you can make me clean.”" },
         { "n": 41, "greek": "καὶ {σπλαγχνισθεὶς | ὀργισθεὶς} ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι·", "english": "And {moved with compassion | becoming angry}, he stretched out his hand and touched him and says to him, “I will; be clean.”", "focus": true },
         { "n": 42, "greek": "καὶ εὐθὺς ἀπῆλθεν ἀπ᾿ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.", "english": "And immediately the leprosy left him, and he was made clean." },
-        { "n": 43, "greek": "καὶ ἐμβριμησάμενος αὐτῷ εὐθὺς ἐξέβαλεν αὐτόν", "english": "And sternly warning him (lit. “snorting at him”), he immediately drove him out", "note": "ἐμβριμησάμενος and ἐξέβαλεν are the harsh words that figure in every argument below." },
+        { "n": 43, "greek": "καὶ ἐμβριμησάμενος αὐτῷ εὐθὺς ἐξέβαλεν αὐτόν", "english": "And sternly warning him (lit. “snorting at him”), he immediately drove him out", "note": "ἐμβριμησάμενος and ἐξέβαλεν are the harsh words that figure in many of the arguments below." },
         { "n": 44, "greek": "καὶ λέγει αὐτῷ· ὅρα μηδενὶ μηδὲν εἴπῃς, ἀλλ᾿ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.", "english": "and says to him, “See that you say nothing to anyone; but go, show yourself to the priest and offer for your cleansing what Moses commanded, as a testimony to them.”" },
         { "n": 45, "greek": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ᾿ ἔξω ἐπ᾿ ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πάντοθεν.", "english": "But he went out and began to proclaim it freely and to spread the word, so that Jesus could no longer enter a town openly but stayed out in deserted places; and they came to him from everywhere." }
       ]
@@ -42,7 +42,7 @@
       "credit": "Novum Testamentum Graece, 28th revised edition (Nestle–Aland), © 2012 Deutsche Bibelgesellschaft, Stuttgart. Short excerpts reproduced for scholarly comment.",
       "apparatusTranscription": "• 41 ⸀ ο δε Ιησους A C K (L) W Γ Δ Θ 0130 f1.13 28. 565. 579. 700. 1241. 1424. 2542. l2211 𝔐 lat sy sa-ms bo-pt ¦ txt ℵ B D 892 it sa-mss bo-pt | ⸁ οργισθεις D a ff² r¹*",
       "howToRead": [
-        "The first unit concerns only the opening words: most manuscripts read ὁ δὲ Ἰησοῦς (“But Jesus”), while ℵ B D 892 and the Old Latin read καί (“And”), which NA28 prints.",
+        "The first unit concerns only the opening words: most manuscripts read ὁ δὲ Ἰησοῦς (“But Jesus”), while ℵ B D 892 and most Old Latin manuscripts read καί (“And”), which NA28 prints.",
         "The second unit is the one at issue. NA28 lists only the witnesses against its text: ὀργισθείς is read by D (Codex Bezae) and the Old Latin manuscripts a, ff² and r¹ (first hand, marked *). Every other witness is implied for σπλαγχνισθείς.",
         "Notice that Bezae sides with ℵ and B in the first unit (καί) and stands alone among Greek manuscripts in the second."
       ]
@@ -110,15 +110,15 @@
       }
     ],
     "takeaways": [
-      "Anger is found in one Greek manuscript and one Latin text-type, centred on northern Italy from about 350.",
+      "Anger is found in one Greek manuscript and one Latin text-type, centred on northern Italy from the later fourth century.",
       "Around the same time, in Syria, Ephrem is commenting on a text that has both compassion and anger; the same double text survives in an Old Syriac manuscript.",
       "Compassion is read everywhere else, including in the oldest branch of each version where anger appears (African Latin e; Sinaitic Syriac).",
-      "So the anger reading is not a quirk of one codex: two unconnected language areas know it by the mid-fourth century."
+      "So the anger reading is not a quirk of one codex: two unconnected language areas know it by the later fourth century."
     ]
   },
 
   "models": {
-    "intro": "Three accounts of how the tradition came to look this way. Each has to explain the same facts; they differ in where the change happened and in which direction. Select a model to see which witnesses and arguments support it and which strain it.",
+    "intro": "Three accounts of how the tradition came to look this way. Each has to explain the same facts; they differ in where the change happened and in which direction. Select a model in the top bar to see which arguments support it and which strain it.",
     "items": [
       {
         "id": "A",
@@ -131,8 +131,8 @@
             { "id": "corr", "label": "Early correction", "date": "2nd century", "reading": "compassion", "note": "one pious change, upstream of most later copies" },
             { "id": "main", "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic", "date": "from 3rd–4th century", "reading": "compassion" },
             { "id": "west", "label": "Uncorrected “Western” Greek strand", "date": "2nd century", "reading": "anger" },
-            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "by c. 365", "reading": "both", "note": "anger later conflated with compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "by c. 350", "reading": "anger" },
+            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "anger later conflated with compassion" },
+            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "later 4th century", "reading": "anger" },
             { "id": "bezae", "label": "Codex Bezae (D, d)", "date": "c. 400", "reading": "anger" }
           ],
           "edges": [["mark","mtlk"],["mark","corr"],["corr","main"],["mark","west"],["west","syr"],["west","lat"],["west","bezae"],["lat","bezae"]]
@@ -180,8 +180,8 @@
             { "id": "mtlk", "label": "Matthew, Luke", "date": "c. 80–90", "reading": "none", "note": "abbreviate; Matthew reuses the word at 20:34" },
             { "id": "main", "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic", "date": "from 3rd–4th century", "reading": "compassion" },
             { "id": "west", "label": "A “Western” Greek copy", "date": "2nd century", "reading": "anger", "note": "change triggered by v. 43, or a slip on a rare word" },
-            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "by c. 365", "reading": "both", "note": "anger added beside the inherited compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "by c. 350", "reading": "anger" },
+            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "anger added beside the inherited compassion" },
+            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "later 4th century", "reading": "anger" },
             { "id": "bezae", "label": "Codex Bezae (D, d)", "date": "c. 400", "reading": "anger" }
           ],
           "edges": [["mark","mtlk"],["mark","main"],["mark","west"],["west","syr"],["west","lat"],["west","bezae"],["lat","bezae"]]
@@ -198,8 +198,8 @@
           "Matthew's silence at 8:3 needs explaining, since he usually keeps Mark's compassion."
         ],
         "holders": [
-          { "name": "Bruce Metzger / UBS committee", "year": 1971, "note": "“Difficult to come to a firm decision”; swayed by the diversity and character of the evidence. Rated {B} since UBS4.", "basis": "reported" },
           { "name": "Ernst Haenchen", "year": 1966, "note": "Unusual among commentators in arguing strongly for σπλαγχνισθείς (so France).", "basis": "reported" },
+          { "name": "Bruce Metzger / UBS committee", "year": 1971, "note": "“Difficult to come to a firm decision”; swayed by the diversity and character of the evidence. Rated {B} since UBS4.", "basis": "reported" },
           { "name": "Peter Head", "year": 1993, "note": "“Diverse and strong external attestation.”", "basis": "reported" },
           { "name": "J. Donahue & D. Harrington", "year": 2002, "note": "Weight of the best manuscripts; anger left alone at 3:5 and 10:14; Jesus compassionate at 6:34, 8:2, 9:22.", "basis": "read" },
           { "name": "Adela Yarbro Collins", "year": 2007, "note": "Reads the scene as moving from pity (v. 41) to anger (v. 43).", "basis": "read" },
@@ -224,9 +224,9 @@
             { "id": "mtlk", "label": "Matthew, Luke", "date": "c. 80–90", "reading": "none" },
             { "id": "main", "label": "The whole Greek tradition · Syriac · Coptic", "date": "", "reading": "compassion" },
             { "id": "latold", "label": "Earliest Latin translation (African: e)", "date": "3rd century", "reading": "compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹, d)", "date": "by c. 350", "reading": "anger", "note": "iratus arises within Latin" },
+            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹, d)", "date": "later 4th century", "reading": "anger", "note": "iratus arises within Latin" },
             { "id": "bezae", "label": "Bezae's Greek column", "date": "c. 400", "reading": "anger", "note": "Greek conformed to a Latin model" },
-            { "id": "syr", "label": "Ephrem, sy-F", "date": "by c. 365", "reading": "both", "note": "unexplained by this model: needs coincidence or Latin–Syriac contact" }
+            { "id": "syr", "label": "Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "unexplained by this model: needs coincidence or Latin–Syriac contact" }
           ],
           "edges": [["mark","mtlk"],["mark","main"],["main","latold"],["latold","lat"],["lat","bezae"],["main","syr"]]
         },
@@ -614,7 +614,7 @@
       {
         "title": "Commentaries on Mark",
         "items": [
-          { "name": "Taylor", "year": 1952, "side": "anger", "basis": "reported" },
+          { "name": "V. Taylor", "year": 1952, "side": "anger", "basis": "reported" },
           { "name": "Haenchen", "year": 1966, "side": "compassion", "basis": "reported" },
           { "name": "Lane (NICNT)", "year": 1974, "side": "anger", "basis": "reported" },
           { "name": "Guelich (WBC)", "year": 1989, "side": "anger", "basis": "reported" },
@@ -647,7 +647,7 @@
           { "name": "Johnson", "year": 2017, "side": "compassion", "basis": "abstract" },
           { "name": "Kristianto", "year": 2018, "side": "compassion", "basis": "reported" },
           { "name": "Bąk", "year": 2018, "side": "anger", "basis": "abstract" },
-          { "name": "Taylor", "year": 2020, "side": "open", "note": "publishes the Old Syriac evidence", "basis": "read" },
+          { "name": "D. G. K. Taylor", "year": 2020, "side": "open", "note": "publishes the Old Syriac evidence", "basis": "read" },
           { "name": "Lorenz (monograph)", "year": 2021, "side": "compassion", "basis": "read" },
           { "name": "Bruehler", "year": 2025, "side": "anger", "basis": "abstract" }
         ]
@@ -674,7 +674,7 @@
     "title": "One reading of the evidence",
     "label": "A provisional judgment, offered for discussion",
     "paragraphs": [
-      "“Only in Bezae” is the wrong frame. Bezae itself is weak evidence: its Greek text at this verse is late and mixed. But the reading it carries is old. Latin Italy and Syriac-speaking Mesopotamia both know it by the mid-fourth century, and the cheapest link between them is a second-century Greek text.",
+      "“Only in Bezae” is the wrong frame. Bezae itself is weak evidence: its Greek text at this verse is late and mixed. But the reading it carries is old. Latin Italy and Syriac-speaking Mesopotamia both know it by the later fourth century, and the cheapest link between them is a second-century Greek text.",
       "That makes the real question a general one: how often does a single early “Western” strand preserve the original against everything else? The internal arguments do not settle it. The harder-reading argument is real, but the synoptic argument is weaker than it looks, and the Syriac form is a double reading that presupposes compassion beside it.",
       "On balance σπλαγχνισθείς is the more probable original — roughly two to one — with ὀργισθείς an early and respectable rival, not a scribal curiosity."
     ],
