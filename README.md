@@ -9,6 +9,9 @@ model selector that shows how each argument bears on a chosen model), who
 holds which position, claims to retire, a provisional assessment and a
 bibliography.
 
+Live site: <https://dimaip.github.io/mark-1-41/> (GitHub Pages, served from the
+`main` branch; pushing to `main` publishes).
+
 ## Editing the content
 
 All content lives in **`content/data.json`**. Fix a date, add a reference or
