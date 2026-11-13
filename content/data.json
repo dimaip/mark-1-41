@@ -9,35 +9,95 @@
       "reported": "Reported by another author or a secondary source; not checked directly"
     }
   },
-
   "variant": {
     "reference": "Mark 1:41",
     "readings": [
-      { "id": "compassion", "greek": "σπλαγχνισθείς", "translit": "splanchnistheis", "gloss": "moved with compassion", "latin": "misertus", "printedBy": "NA28, UBS5, ECM Mark, THGNT" },
-      { "id": "anger", "greek": "ὀργισθείς", "translit": "orgistheis", "gloss": "becoming angry", "latin": "iratus", "printedBy": "SBLGNT" }
+      {
+        "id": "compassion",
+        "greek": "σπλαγχνισθείς",
+        "translit": "splanchnistheis",
+        "gloss": "moved with compassion",
+        "latin": "misertus",
+        "printedBy": "NA28, UBS5, ECM Mark, THGNT"
+      },
+      {
+        "id": "anger",
+        "greek": "ὀργισθείς",
+        "translit": "orgistheis",
+        "gloss": "becoming angry",
+        "latin": "iratus",
+        "printedBy": "SBLGNT"
+      }
     ],
     "passage": {
       "source": "NA28",
       "verses": [
-        { "n": 40, "greek": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρὸς παρακαλῶν αὐτὸν [καὶ γονυπετῶν] καὶ λέγων αὐτῷ ὅτι ἐὰν θέλῃς δύνασαί με καθαρίσαι.", "english": "A leper comes to him, begging him [and kneeling] and saying to him, “If you will, you can make me clean.”" },
-        { "n": 41, "greek": "καὶ {σπλαγχνισθεὶς | ὀργισθεὶς} ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι·", "english": "And {moved with compassion | becoming angry}, he stretched out his hand and touched him and says to him, “I will; be clean.”", "focus": true },
-        { "n": 42, "greek": "καὶ εὐθὺς ἀπῆλθεν ἀπ᾿ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.", "english": "And immediately the leprosy left him, and he was made clean." },
-        { "n": 43, "greek": "καὶ ἐμβριμησάμενος αὐτῷ εὐθὺς ἐξέβαλεν αὐτόν", "english": "And sternly warning him (lit. “snorting at him”), he immediately drove him out", "note": "ἐμβριμησάμενος and ἐξέβαλεν are the harsh words that figure in many of the arguments below." },
-        { "n": 44, "greek": "καὶ λέγει αὐτῷ· ὅρα μηδενὶ μηδὲν εἴπῃς, ἀλλ᾿ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.", "english": "and says to him, “See that you say nothing to anyone; but go, show yourself to the priest and offer for your cleansing what Moses commanded, as a testimony to them.”" },
-        { "n": 45, "greek": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ᾿ ἔξω ἐπ᾿ ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πάντοθεν.", "english": "But he went out and began to proclaim it freely and to spread the word, so that Jesus could no longer enter a town openly but stayed out in deserted places; and they came to him from everywhere." }
+        {
+          "n": 40,
+          "greek": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρὸς παρακαλῶν αὐτὸν [καὶ γονυπετῶν] καὶ λέγων αὐτῷ ὅτι ἐὰν θέλῃς δύνασαί με καθαρίσαι.",
+          "english": "A leper comes to him, begging him [and kneeling] and saying to him, “If you will, you can make me clean.”"
+        },
+        {
+          "n": 41,
+          "greek": "καὶ {σπλαγχνισθεὶς | ὀργισθεὶς} ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι·",
+          "english": "And {moved with compassion | becoming angry}, he stretched out his hand and touched him and says to him, “I will; be clean.”",
+          "focus": true
+        },
+        {
+          "n": 42,
+          "greek": "καὶ εὐθὺς ἀπῆλθεν ἀπ᾿ αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.",
+          "english": "And immediately the leprosy left him, and he was made clean."
+        },
+        {
+          "n": 43,
+          "greek": "καὶ ἐμβριμησάμενος αὐτῷ εὐθὺς ἐξέβαλεν αὐτόν",
+          "english": "And sternly warning him (lit. “snorting at him”), he immediately drove him out",
+          "note": "ἐμβριμησάμενος and ἐξέβαλεν are the harsh words that figure in many of the arguments below."
+        },
+        {
+          "n": 44,
+          "greek": "καὶ λέγει αὐτῷ· ὅρα μηδενὶ μηδὲν εἴπῃς, ἀλλ᾿ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.",
+          "english": "and says to him, “See that you say nothing to anyone; but go, show yourself to the priest and offer for your cleansing what Moses commanded, as a testimony to them.”"
+        },
+        {
+          "n": 45,
+          "greek": "Ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ᾿ ἔξω ἐπ᾿ ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πάντοθεν.",
+          "english": "But he went out and began to proclaim it freely and to spread the word, so that Jesus could no longer enter a town openly but stayed out in deserted places; and they came to him from everywhere."
+        }
       ]
     },
     "parallels": [
-      { "ref": "Mark 1:41", "greek": "καὶ [σπλαγχνισθεὶς / ὀργισθεὶς] ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι", "emotion": "disputed" },
-      { "ref": "Matthew 8:3", "greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· θέλω, καθαρίσθητι", "emotion": "none" },
-      { "ref": "Luke 5:13", "greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· θέλω, καθαρίσθητι", "emotion": "none" }
+      {
+        "ref": "Mark 1:41",
+        "greek": "καὶ [σπλαγχνισθεὶς / ὀργισθεὶς] ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι",
+        "emotion": "disputed"
+      },
+      {
+        "ref": "Matthew 8:3",
+        "greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· θέλω, καθαρίσθητι",
+        "emotion": "none"
+      },
+      {
+        "ref": "Luke 5:13",
+        "greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· θέλω, καθαρίσθητι",
+        "emotion": "none"
+      }
     ],
     "parallelsNote": "Neither Matthew nor Luke has any emotion word here, and neither has anything corresponding to Mark 1:43.",
     "na28": {
       "images": [
-        { "file": "assets/na28-p106-text.png", "caption": "NA28, p. 106: Mark 1:40–41a. The sign before σπλαγχνισθεὶς points to the apparatus." },
-        { "file": "assets/na28-p107-text.png", "caption": "NA28, p. 107: Mark 1:41b–45." },
-        { "file": "assets/na28-p106-apparatus.png", "caption": "NA28, p. 106, critical apparatus for verse 41." }
+        {
+          "file": "assets/na28-p106-text.png",
+          "caption": "NA28, p. 106: Mark 1:40–41a. The sign before σπλαγχνισθεὶς points to the apparatus."
+        },
+        {
+          "file": "assets/na28-p107-text.png",
+          "caption": "NA28, p. 107: Mark 1:41b–45."
+        },
+        {
+          "file": "assets/na28-p106-apparatus.png",
+          "caption": "NA28, p. 106, critical apparatus for verse 41."
+        }
       ],
       "credit": "Novum Testamentum Graece, 28th revised edition (Nestle–Aland), © 2012 Deutsche Bibelgesellschaft, Stuttgart. Short excerpts reproduced for scholarly comment.",
       "apparatusTranscription": "• 41 ⸀ ο δε Ιησους A C K (L) W Γ Δ Θ 0130 f1.13 28. 565. 579. 700. 1241. 1424. 2542. l2211 𝔐 lat sy sa-ms bo-pt ¦ txt ℵ B D 892 it sa-mss bo-pt | ⸁ οργισθεις D a ff² r¹*",
@@ -48,21 +108,78 @@
       ]
     }
   },
-
   "witnesses": {
     "summary": "No papyrus preserves this verse (P137 covers Mark 1:7–9 and 16–18 only; P45 begins in Mark 4). The earliest Greek evidence is from the fourth century.",
-    "count": { "text": "In Text und Textwert, 1623 of 1631 Greek manuscripts read σπλαγχνισθείς at this test passage.", "basis": "reported", "source": "Lorenz 2016, p. 209" },
+    "count": {
+      "text": "In Text und Textwert, 1623 of 1631 Greek manuscripts read σπλαγχνισθείς at this test passage.",
+      "basis": "reported",
+      "source": "Lorenz 2016, p. 209"
+    },
     "groups": [
       {
         "id": "anger",
         "title": "Anger",
         "reading": "ὀργισθείς / iratus",
         "items": [
-          { "siglum": "D (05)", "name": "Codex Bezae Cantabrigiensis", "date": "c. 400", "year": 400, "language": "Greek", "region": "uncertain (Greek–Latin bilingual)", "attests": "καὶ ὀργισθεὶς ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο αὐτοῦ", "note": "The only Greek manuscript with this reading.", "basis": "read", "source": "INTF transcription of 05; ECM Mark" },
-          { "siglum": "d (VL 5)", "name": "Codex Bezae, Latin column", "date": "c. 400", "year": 400, "language": "Latin", "region": "uncertain", "attests": "et iratus extendit manum suam et tetigit eum", "note": "Facing Latin page of the same codex.", "basis": "read", "source": "Lorenz 2021" },
-          { "siglum": "a (VL 3)", "name": "Codex Vercellensis", "date": "4th century (second half)", "year": 370, "language": "Latin", "region": "Vercelli, northern Italy", "attests": "et iratus extendens manum suam", "note": "The oldest witness to anger.", "basis": "reported", "source": "Lorenz 2016, §3" },
-          { "siglum": "ff² (VL 8)", "name": "Codex Corbeiensis II", "date": "5th century", "year": 450, "language": "Latin", "region": "Italy", "attests": "et iratus", "basis": "reported", "source": "Lorenz 2016, §3" },
-          { "siglum": "r¹* (VL 14)", "name": "Codex Usserianus Primus", "date": "c. 600", "year": 600, "language": "Latin", "region": "Ireland (Bobbio connections)", "attests": "et iratus", "note": "First hand only. A corrector added mis- above the line, turning it towards misertus.", "basis": "reported", "source": "Lorenz 2016, p. 214; Johnson 2017, p. 194" }
+          {
+            "siglum": "D (05)",
+            "name": "Codex Bezae Cantabrigiensis",
+            "date": "c. 400",
+            "year": 400,
+            "language": "Greek",
+            "region": "uncertain (Greek–Latin bilingual)",
+            "attests": "καὶ ὀργισθεὶς ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο αὐτοῦ",
+            "note": "The only Greek manuscript with this reading.",
+            "basis": "read",
+            "source": "INTF transcription of 05; ECM Mark"
+          },
+          {
+            "siglum": "d (VL 5)",
+            "name": "Codex Bezae, Latin column",
+            "date": "c. 400",
+            "year": 400,
+            "language": "Latin",
+            "region": "uncertain",
+            "attests": "et iratus extendit manum suam et tetigit eum",
+            "note": "Facing Latin page of the same codex.",
+            "basis": "read",
+            "source": "Lorenz 2021"
+          },
+          {
+            "siglum": "a (VL 3)",
+            "name": "Codex Vercellensis",
+            "date": "4th century (second half)",
+            "year": 370,
+            "language": "Latin",
+            "region": "Vercelli, northern Italy",
+            "attests": "et iratus extendens manum suam",
+            "note": "The oldest witness to anger.",
+            "basis": "reported",
+            "source": "Lorenz 2016, §3"
+          },
+          {
+            "siglum": "ff² (VL 8)",
+            "name": "Codex Corbeiensis II",
+            "date": "5th century",
+            "year": 450,
+            "language": "Latin",
+            "region": "Italy",
+            "attests": "et iratus",
+            "basis": "reported",
+            "source": "Lorenz 2016, §3"
+          },
+          {
+            "siglum": "r¹* (VL 14)",
+            "name": "Codex Usserianus Primus",
+            "date": "c. 600",
+            "year": 600,
+            "language": "Latin",
+            "region": "Ireland (Bobbio connections)",
+            "attests": "et iratus",
+            "note": "First hand only. A later hand added mis- above the line and deleted the a: iratus → misiratus → misirtus (= misertus).",
+            "basis": "read",
+            "source": "Johnson 2017, p. 194 (with photograph); Lorenz 2016, p. 214"
+          }
         ]
       },
       {
@@ -70,8 +187,30 @@
         "title": "Both: compassion and anger",
         "reading": "ܐܬܪܚܡ ܥܠܘܗܝ ܘܟܕ ܡܦܪ — “had compassion on him and, being angered, …”",
         "items": [
-          { "siglum": "Ephrem", "name": "Ephrem the Syrian, Commentary on the Gospel Harmony (Diatessaron) XII.21–24", "date": "before 373", "year": 365, "language": "Syriac", "region": "Nisibis / Edessa", "attests": "“Our Lord was angry, therefore, about both things” … “reproof through his anger, and compassion through his healing” … “again, it is said that he was not angry with him, but with his leprosy.”", "note": "Ephrem explains a text that had both emotions. The key word mpār (“being angered”) was mistranslated in the standard editions (Leloir: succendebat; McCarthy: “was refuting”), so its status as a gospel citation was missed until Taylor 2020.", "basis": "read", "source": "Taylor 2020, pp. 20–22" },
-          { "siglum": "sy-F", "name": "Old Syriac Gospels, fragmentary palimpsest (Sinai Syr. NF 37 + NF 39)", "date": "late 5th century (Taylor); 6th century (Brock)", "year": 480, "language": "Syriac", "region": "Syria; now St Catherine's, Sinai", "attests": "“Now he, Jesus, had compassion on him and, being angered, stretched out his hand and touched him.”", "note": "The third known Old Syriac gospel manuscript, read by multispectral imaging. Cited in the ECM of Mark as a separate reading together with Ephrem.", "basis": "read", "source": "Taylor 2020, p. 22; ECM Mark 1:41/2-10, reading h" }
+          {
+            "siglum": "Ephrem",
+            "name": "Ephrem the Syrian, Commentary on the Gospel Harmony (Diatessaron) XII.21–24",
+            "date": "before 373",
+            "year": 365,
+            "language": "Syriac",
+            "region": "Nisibis / Edessa",
+            "attests": "“Our Lord was angry, therefore, about both things” … “reproof through his anger, and compassion through his healing” … “again, it is said that he was not angry with him, but with his leprosy.”",
+            "note": "Ephrem explains a text that had both emotions. The key word mpār (“being angered”) was mistranslated in the standard editions (Leloir: succendebat; McCarthy: “was refuting”), so its status as a gospel citation was missed until Taylor 2020.",
+            "basis": "read",
+            "source": "Taylor 2020, pp. 20–22"
+          },
+          {
+            "siglum": "sy-F",
+            "name": "Old Syriac Gospels, fragmentary palimpsest (Sinai Syr. NF 37 + NF 39)",
+            "date": "late 5th century (Taylor); 6th century (Brock)",
+            "year": 480,
+            "language": "Syriac",
+            "region": "Syria; now St Catherine's, Sinai",
+            "attests": "“Now he, Jesus, had compassion on him and, being angered, stretched out his hand and touched him.”",
+            "note": "The third known Old Syriac gospel manuscript, read by multispectral imaging. Cited in the ECM of Mark as a separate reading together with Ephrem.",
+            "basis": "read",
+            "source": "Taylor 2020, p. 22; ECM Mark 1:41/2-10, reading h"
+          }
         ]
       },
       {
@@ -79,8 +218,30 @@
         "title": "Neither word",
         "reading": "participle omitted",
         "items": [
-          { "siglum": "b (VL 4)", "name": "Codex Veronensis", "date": "5th century", "year": 480, "language": "Latin", "region": "Verona, northern Italy", "attests": "no participle", "note": "Read either as discomfort with an inherited iratus or as assimilation to Matthew and Luke.", "basis": "reported", "source": "Lorenz 2016, p. 214; Willker" },
-          { "siglum": "169, 505, 508, 1358, l866", "name": "Greek minuscules and one lectionary", "date": "medieval", "year": 1100, "language": "Greek", "region": "Byzantine", "attests": "ὁ δὲ Ἰησοῦς ἐκτείνας …", "note": "1358 was wrongly listed with Bezae for ὀργισθείς in Text und Textwert (1998); Jeff Cate checked the film in 2011 and found it simply omits the word. The error still circulates.", "basis": "reported", "source": "Cate 2011; Lorenz 2021, notes; Willker" }
+          {
+            "siglum": "b (VL 4)",
+            "name": "Codex Veronensis",
+            "date": "5th century",
+            "year": 480,
+            "language": "Latin",
+            "region": "Verona, northern Italy",
+            "attests": "no participle",
+            "note": "Read either as discomfort with an inherited iratus or as assimilation to Matthew and Luke.",
+            "basis": "reported",
+            "source": "Lorenz 2016, p. 214; Willker"
+          },
+          {
+            "siglum": "169, 505, 508, 1358, l866",
+            "name": "Greek minuscules and one lectionary",
+            "date": "medieval",
+            "year": 1100,
+            "language": "Greek",
+            "region": "Byzantine",
+            "attests": "ὁ δὲ Ἰησοῦς ἐκτείνας …",
+            "note": "1358 was wrongly listed with Bezae for ὀργισθείς in Text und Textwert (1998); Jeff Cate checked the film in 2011 and found it simply omits the word. The error still circulates.",
+            "basis": "reported",
+            "source": "Cate 2011; Johnson 2017, p. 199; Lorenz 2021, notes; Willker"
+          }
         ]
       },
       {
@@ -88,24 +249,195 @@
         "title": "Compassion",
         "reading": "σπλαγχνισθείς / misertus",
         "items": [
-          { "siglum": "ℵ (01)", "name": "Codex Sinaiticus", "date": "4th century", "year": 350, "language": "Greek", "region": "Egypt / Palestine", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "B (03)", "name": "Codex Vaticanus", "date": "4th century", "year": 340, "language": "Greek", "region": "Egypt / Palestine", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "A (02)", "name": "Codex Alexandrinus", "date": "5th century", "year": 450, "language": "Greek", "region": "Eastern Mediterranean", "basis": "read", "source": "NA28" },
-          { "siglum": "C (04)", "name": "Codex Ephraemi Rescriptus", "date": "5th century", "year": 450, "language": "Greek", "region": "Eastern Mediterranean", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "W (032)", "name": "Codex Washingtonianus", "date": "4th/5th century", "year": 400, "language": "Greek", "region": "Egypt", "note": "Omits verse 43 altogether.", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "L (019)", "name": "Codex Regius", "date": "8th century", "year": 750, "language": "Greek", "region": "Byzantine", "basis": "read", "source": "ECM Mark" },
-          { "siglum": "Δ (037)", "name": "Codex Sangallensis", "date": "9th century", "year": 850, "language": "Greek", "region": "St Gall", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "Θ (038)", "name": "Codex Koridethi", "date": "9th century", "year": 850, "language": "Greek", "region": "Caucasus", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "f¹, f¹³", "name": "Family 1 and Family 13", "date": "10th–15th century", "year": 1100, "language": "Greek", "region": "Byzantine", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "33, 565, 579, 700, 892, 1424 …", "name": "Leading minuscules", "date": "9th–13th century", "year": 950, "language": "Greek", "region": "Byzantine", "basis": "read", "source": "NA28; ECM Mark" },
-          { "siglum": "𝔐 / Byz", "name": "The Byzantine majority", "date": "from the 5th century on", "year": 900, "language": "Greek", "region": "Byzantine", "note": "Over 1,600 manuscripts.", "basis": "reported", "source": "Lorenz 2016, p. 209" },
-          { "siglum": "e (VL 2)", "name": "Codex Palatinus", "date": "5th century", "year": 450, "language": "Latin", "region": "African text-type", "attests": "misericordia actus", "note": "Represents the oldest (African) stratum of the Latin gospels. Codex Bobiensis (k) is lacking here.", "basis": "reported", "source": "Willker; Lorenz 2016, p. 214" },
-          { "siglum": "f, l, q, aur, c", "name": "Other Old Latin manuscripts", "date": "6th–12th century", "year": 650, "language": "Latin", "region": "Europe", "attests": "misertus (est)", "basis": "reported", "source": "Lorenz 2016, p. 214; Willker" },
-          { "siglum": "vg", "name": "Vulgate (Jerome's revision)", "date": "383/384", "year": 384, "language": "Latin", "region": "Rome", "attests": "Iesus autem misertus eius", "basis": "reported", "source": "Lorenz 2016, p. 214" },
-          { "siglum": "sy-s", "name": "Sinaitic Syriac (Old Syriac)", "date": "late 4th century", "year": 390, "language": "Syriac", "region": "Syria", "attests": "“had compassion on him”", "note": "The Curetonian Syriac is not extant here.", "basis": "read", "source": "Taylor 2020, pp. 20–22" },
-          { "siglum": "sy-p, sy-h", "name": "Peshitta and Harklean Syriac", "date": "5th century; 616", "year": 430, "language": "Syriac", "region": "Syria", "attests": "“had compassion on him”", "basis": "read", "source": "Taylor 2020; ECM Mark" },
-          { "siglum": "co, got, aeth", "name": "Coptic (Sahidic, Bohairic), Gothic, Ethiopic", "date": "3rd–6th century versions", "year": 400, "language": "Coptic / Gothic / Ethiopic", "region": "Egypt, Danube, Ethiopia", "basis": "read", "source": "ECM Mark" },
-          { "siglum": "Basil", "name": "Basil of Caesarea", "date": "4th century", "year": 370, "language": "Greek", "region": "Cappadocia", "basis": "read", "source": "ECM Mark" }
+          {
+            "siglum": "ℵ (01)",
+            "name": "Codex Sinaiticus",
+            "date": "4th century",
+            "year": 350,
+            "language": "Greek",
+            "region": "Egypt / Palestine",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "B (03)",
+            "name": "Codex Vaticanus",
+            "date": "4th century",
+            "year": 340,
+            "language": "Greek",
+            "region": "Egypt / Palestine",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "A (02)",
+            "name": "Codex Alexandrinus",
+            "date": "5th century",
+            "year": 450,
+            "language": "Greek",
+            "region": "Eastern Mediterranean",
+            "basis": "read",
+            "source": "NA28"
+          },
+          {
+            "siglum": "C (04)",
+            "name": "Codex Ephraemi Rescriptus",
+            "date": "5th century",
+            "year": 450,
+            "language": "Greek",
+            "region": "Eastern Mediterranean",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "W (032)",
+            "name": "Codex Washingtonianus",
+            "date": "4th/5th century",
+            "year": 400,
+            "language": "Greek",
+            "region": "Egypt",
+            "note": "Omits the end of verse 42 and all of verse 43 (καὶ ἐκαθαρίσθη … ἐξέβαλεν αὐτόν).",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "L (019)",
+            "name": "Codex Regius",
+            "date": "8th century",
+            "year": 750,
+            "language": "Greek",
+            "region": "Byzantine",
+            "basis": "read",
+            "source": "ECM Mark"
+          },
+          {
+            "siglum": "Δ (037)",
+            "name": "Codex Sangallensis",
+            "date": "9th century",
+            "year": 850,
+            "language": "Greek",
+            "region": "St Gall",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "Θ (038)",
+            "name": "Codex Koridethi",
+            "date": "9th century",
+            "year": 850,
+            "language": "Greek",
+            "region": "Caucasus",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "f¹, f¹³",
+            "name": "Family 1 and Family 13",
+            "date": "10th–15th century",
+            "year": 1100,
+            "language": "Greek",
+            "region": "Byzantine",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "33, 565, 579, 700, 892, 1424 …",
+            "name": "Leading minuscules",
+            "date": "9th–13th century",
+            "year": 950,
+            "language": "Greek",
+            "region": "Byzantine",
+            "basis": "read",
+            "source": "NA28; ECM Mark"
+          },
+          {
+            "siglum": "𝔐 / Byz",
+            "name": "The Byzantine majority",
+            "date": "from the 5th century on",
+            "year": 900,
+            "language": "Greek",
+            "region": "Byzantine",
+            "note": "Over 1,600 manuscripts.",
+            "basis": "reported",
+            "source": "Lorenz 2016, p. 209"
+          },
+          {
+            "siglum": "e (VL 2)",
+            "name": "Codex Palatinus",
+            "date": "5th century",
+            "year": 450,
+            "language": "Latin",
+            "region": "African text-type",
+            "attests": "misericordia actus",
+            "note": "Represents the oldest (African) stratum of the Latin gospels. Codex Bobiensis (k) is lacking here. Johnson lists e simply under misertus; the wording given here follows Willker and Lorenz.",
+            "basis": "reported",
+            "source": "Willker; Lorenz 2016, p. 214"
+          },
+          {
+            "siglum": "f, l, q, aur, c",
+            "name": "Other Old Latin manuscripts",
+            "date": "6th–12th century",
+            "year": 650,
+            "language": "Latin",
+            "region": "Europe",
+            "attests": "misertus (est)",
+            "basis": "reported",
+            "source": "Lorenz 2016, p. 214; Willker"
+          },
+          {
+            "siglum": "vg",
+            "name": "Vulgate (Jerome's revision)",
+            "date": "383/384",
+            "year": 384,
+            "language": "Latin",
+            "region": "Rome",
+            "attests": "Iesus autem misertus eius",
+            "basis": "reported",
+            "source": "Lorenz 2016, p. 214"
+          },
+          {
+            "siglum": "sy-s",
+            "name": "Sinaitic Syriac (Old Syriac)",
+            "date": "late 4th century",
+            "year": 390,
+            "language": "Syriac",
+            "region": "Syria",
+            "attests": "“had compassion on him”",
+            "note": "The Curetonian Syriac is not extant here.",
+            "basis": "read",
+            "source": "Taylor 2020, pp. 20–22"
+          },
+          {
+            "siglum": "sy-p, sy-h",
+            "name": "Peshitta and Harklean Syriac",
+            "date": "5th century; 616",
+            "year": 430,
+            "language": "Syriac",
+            "region": "Syria",
+            "attests": "“had compassion on him”",
+            "basis": "read",
+            "source": "Taylor 2020; ECM Mark"
+          },
+          {
+            "siglum": "co, got, aeth",
+            "name": "Coptic (Sahidic, Bohairic), Gothic, Ethiopic",
+            "date": "3rd–6th century versions",
+            "year": 400,
+            "language": "Coptic / Gothic / Ethiopic",
+            "region": "Egypt, Danube, Ethiopia",
+            "basis": "read",
+            "source": "ECM Mark"
+          },
+          {
+            "siglum": "Basil",
+            "name": "Basil of Caesarea",
+            "date": "4th century",
+            "year": 370,
+            "language": "Greek",
+            "region": "Cappadocia",
+            "basis": "read",
+            "source": "ECM Mark"
+          }
         ]
       }
     ],
@@ -113,10 +445,9 @@
       "Anger is found in one Greek manuscript and one Latin text-type, centred on northern Italy from the later fourth century.",
       "Around the same time, in Syria, Ephrem is commenting on a text that has both compassion and anger; the same double text survives in an Old Syriac manuscript.",
       "Compassion is read everywhere else, including in the oldest branch of each version where anger appears (African Latin e; Sinaitic Syriac).",
-      "So the anger reading is not a quirk of one codex: two unconnected language areas know it by the later fourth century."
+      "So the anger reading is not a quirk of one codex: two language areas know it by the later fourth century, with no known link between them except Tatian, who studied in Rome before working in the East."
     ]
   },
-
   "models": {
     "intro": "Three accounts of how the tradition came to look this way. Each has to explain the same facts; they differ in where the change happened and in which direction. Select a model in the top bar to see which arguments support it and which strain it.",
     "items": [
@@ -126,16 +457,92 @@
         "short": "Mark wrote ὀργισθείς; an early correction to σπλαγχνισθείς took over almost everywhere.",
         "stemma": {
           "nodes": [
-            { "id": "mark", "label": "Mark", "date": "c. 70", "reading": "anger" },
-            { "id": "mtlk", "label": "Matthew, Luke", "date": "c. 80–90", "reading": "none", "note": "drop the offending word" },
-            { "id": "corr", "label": "Early correction", "date": "2nd century", "reading": "compassion", "note": "one pious change, upstream of most later copies" },
-            { "id": "main", "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic", "date": "from 3rd–4th century", "reading": "compassion" },
-            { "id": "west", "label": "Uncorrected “Western” Greek strand", "date": "2nd century", "reading": "anger" },
-            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "anger later conflated with compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "later 4th century", "reading": "anger" },
-            { "id": "bezae", "label": "Codex Bezae (D, d)", "date": "c. 400", "reading": "anger" }
+            {
+              "id": "mark",
+              "label": "Mark",
+              "date": "c. 70",
+              "reading": "anger"
+            },
+            {
+              "id": "mtlk",
+              "label": "Matthew, Luke",
+              "date": "c. 80–90",
+              "reading": "none",
+              "note": "drop the offending word"
+            },
+            {
+              "id": "corr",
+              "label": "Early correction",
+              "date": "2nd century",
+              "reading": "compassion",
+              "note": "one pious change, upstream of most later copies"
+            },
+            {
+              "id": "main",
+              "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic",
+              "date": "from 3rd–4th century",
+              "reading": "compassion"
+            },
+            {
+              "id": "west",
+              "label": "Uncorrected “Western” Greek strand",
+              "date": "2nd century",
+              "reading": "anger"
+            },
+            {
+              "id": "syr",
+              "label": "Syriac harmony tradition → Ephrem, sy-F",
+              "date": "before 373",
+              "reading": "both",
+              "note": "anger later conflated with compassion"
+            },
+            {
+              "id": "lat",
+              "label": "Italian Old Latin (a, ff², r¹)",
+              "date": "later 4th century",
+              "reading": "anger"
+            },
+            {
+              "id": "bezae",
+              "label": "Codex Bezae (D, d)",
+              "date": "c. 400",
+              "reading": "anger"
+            }
           ],
-          "edges": [["mark","mtlk"],["mark","corr"],["corr","main"],["mark","west"],["west","syr"],["west","lat"],["west","bezae"],["lat","bezae"]]
+          "edges": [
+            [
+              "mark",
+              "mtlk"
+            ],
+            [
+              "mark",
+              "corr"
+            ],
+            [
+              "corr",
+              "main"
+            ],
+            [
+              "mark",
+              "west"
+            ],
+            [
+              "west",
+              "syr"
+            ],
+            [
+              "west",
+              "lat"
+            ],
+            [
+              "west",
+              "bezae"
+            ],
+            [
+              "lat",
+              "bezae"
+            ]
+          ]
         },
         "explains": [
           "Why anyone would change the text: anger with no stated cause is an embarrassment; compassion is the obvious repair.",
@@ -149,25 +556,105 @@
           "Scribes left Jesus' anger untouched at Mark 3:5 and his indignation at 10:14."
         ],
         "holders": [
-          { "name": "C. H. Turner", "year": 1927, "note": "Harder reading; Matthew and Luke drop it as they drop μετ᾿ ὀργῆς (3:5) and ἐμβριμησάμενος.", "basis": "reported" },
-          { "name": "Vincent Taylor", "year": 1952, "basis": "reported" },
-          { "name": "R. V. G. Tasker / NEB", "year": 1964, "basis": "reported" },
-          { "name": "J. K. Elliott", "year": 1981, "note": "The UBS committee “allowed itself to be overwhelmed by the sheer number of MSS”.", "basis": "reported" },
-          { "name": "Robert Guelich", "year": 1989, "basis": "reported" },
-          { "name": "Morna Hooker", "year": 1991, "note": "“Almost certainly the correct reading.”", "basis": "read" },
-          { "name": "Mark Proctor", "year": 1999, "note": "Dissertation devoted to the case for an angry Jesus.", "basis": "reported" },
-          { "name": "Joel Marcus", "year": 2000, "note": "σπλαγχνισθείς “is probably a scribal amelioration”.", "basis": "read" },
-          { "name": "R. T. France", "year": 2002, "note": "“It is hard to see why anyone should introduce ὀργισθείς.”", "basis": "read" },
-          { "name": "Bart Ehrman", "year": 2003, "note": "Once altered, the change “could easily have spread like wildfire”.", "basis": "reported" },
-          { "name": "H. Greeven & E. Güting", "year": 2005, "note": "Bezae among the witnesses preserving the ancient text here.", "basis": "reported" },
-          { "name": "M. Eugene Boring", "year": 2006, "note": "“A change from ‘being angry’ to ‘having compassion’ is readily explained, but not vice versa.”", "basis": "read" },
-          { "name": "Michael Holmes (SBLGNT)", "year": 2010, "note": "Prints ὀργισθείς.", "basis": "read" },
-          { "name": "NIV committee", "year": 2011, "note": "“Jesus was indignant.”", "basis": "read" },
-          { "name": "Jean-Claude Haelewyck", "year": 2013, "note": "Variant of this model: three successive editions of the pericope, Bezae's (anger throughout) the earliest.", "basis": "abstract" },
-          { "name": "Bart Bruehler", "year": 2025, "note": "Most recent defence of the anger reading.", "basis": "abstract" }
+          {
+            "name": "C. H. Turner",
+            "year": 1927,
+            "note": "Harder reading; Matthew and Luke drop it as they drop μετ᾿ ὀργῆς (3:5) and ἐμβριμησάμενος.",
+            "basis": "reported"
+          },
+          {
+            "name": "Vincent Taylor",
+            "year": 1952,
+            "basis": "reported"
+          },
+          {
+            "name": "R. V. G. Tasker / NEB",
+            "year": 1964,
+            "basis": "reported"
+          },
+          {
+            "name": "J. K. Elliott",
+            "year": 1981,
+            "note": "The UBS committee “allowed itself to be overwhelmed by the sheer number of MSS”.",
+            "basis": "reported"
+          },
+          {
+            "name": "Robert Guelich",
+            "year": 1989,
+            "basis": "reported"
+          },
+          {
+            "name": "Morna Hooker",
+            "year": 1991,
+            "note": "“Almost certainly the correct reading.”",
+            "basis": "read"
+          },
+          {
+            "name": "Mark Proctor",
+            "year": 1999,
+            "note": "Dissertation devoted to the case for an angry Jesus.",
+            "basis": "reported"
+          },
+          {
+            "name": "Joel Marcus",
+            "year": 2000,
+            "note": "σπλαγχνισθείς “is probably a scribal amelioration”.",
+            "basis": "read"
+          },
+          {
+            "name": "R. T. France",
+            "year": 2002,
+            "note": "“It is hard to see why anyone should introduce ὀργισθείς.”",
+            "basis": "read"
+          },
+          {
+            "name": "Bart Ehrman",
+            "year": 2003,
+            "note": "Once altered, the change “could easily have spread like wildfire” (p. 123). Jesus is angry that anyone would question his willingness to help (p. 138).",
+            "basis": "read"
+          },
+          {
+            "name": "H. Greeven & E. Güting",
+            "year": 2005,
+            "note": "Bezae among the witnesses preserving the ancient text here.",
+            "basis": "reported"
+          },
+          {
+            "name": "M. Eugene Boring",
+            "year": 2006,
+            "note": "“A change from ‘being angry’ to ‘having compassion’ is readily explained, but not vice versa.”",
+            "basis": "read"
+          },
+          {
+            "name": "Michael Holmes (SBLGNT)",
+            "year": 2010,
+            "note": "Prints ὀργισθείς.",
+            "basis": "read"
+          },
+          {
+            "name": "NIV committee",
+            "year": 2011,
+            "note": "“Jesus was indignant.”",
+            "basis": "read"
+          },
+          {
+            "name": "Jean-Claude Haelewyck",
+            "year": 2013,
+            "note": "Variant of this model: three successive editions of the pericope, Bezae's (anger throughout) the earliest.",
+            "basis": "abstract"
+          },
+          {
+            "name": "Bart Bruehler",
+            "year": 2025,
+            "note": "Most recent defence of the anger reading.",
+            "basis": "abstract"
+          }
         ],
         "variants": [
-          { "title": "Lake's twist (1923)", "text": "ὀργισθείς is original, but its subject is the leper, who touches Jesus “in a passion of rage”. Rejected by France (“an exegetical counsel of despair”) and Collins." }
+          {
+            "title": "Lake's twist (1923)",
+            "text": "ὀργισθείς is original, but its subject is the leper, who touches Jesus “in a passion of rage”. Rejected by France (“an exegetical counsel of despair”), Collins and Ehrman (the subject of λέγει must be that of ἥψατο)."
+          }
         ]
       },
       {
@@ -176,21 +663,88 @@
         "short": "Mark wrote σπλαγχνισθείς; ὀργισθείς arose once, in the second century, in a “Western” Greek text.",
         "stemma": {
           "nodes": [
-            { "id": "mark", "label": "Mark", "date": "c. 70", "reading": "compassion" },
-            { "id": "mtlk", "label": "Matthew, Luke", "date": "c. 80–90", "reading": "none", "note": "abbreviate; Matthew reuses the word at 20:34" },
-            { "id": "main", "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic", "date": "from 3rd–4th century", "reading": "compassion" },
-            { "id": "west", "label": "A “Western” Greek copy", "date": "2nd century", "reading": "anger", "note": "change triggered by v. 43, or a slip on a rare word" },
-            { "id": "syr", "label": "Syriac harmony tradition → Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "anger added beside the inherited compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹)", "date": "later 4th century", "reading": "anger" },
-            { "id": "bezae", "label": "Codex Bezae (D, d)", "date": "c. 400", "reading": "anger" }
+            {
+              "id": "mark",
+              "label": "Mark",
+              "date": "c. 70",
+              "reading": "compassion"
+            },
+            {
+              "id": "mtlk",
+              "label": "Matthew, Luke",
+              "date": "c. 80–90",
+              "reading": "none",
+              "note": "abbreviate; Matthew reuses the word at 20:34"
+            },
+            {
+              "id": "main",
+              "label": "All other Greek lines · African Latin · Sinaitic Syriac · Coptic",
+              "date": "from 3rd–4th century",
+              "reading": "compassion"
+            },
+            {
+              "id": "west",
+              "label": "A “Western” Greek copy",
+              "date": "2nd century",
+              "reading": "anger",
+              "note": "change triggered by v. 43, or a slip on a rare word"
+            },
+            {
+              "id": "syr",
+              "label": "Syriac harmony tradition → Ephrem, sy-F",
+              "date": "before 373",
+              "reading": "both",
+              "note": "anger added beside the inherited compassion"
+            },
+            {
+              "id": "lat",
+              "label": "Italian Old Latin (a, ff², r¹)",
+              "date": "later 4th century",
+              "reading": "anger"
+            },
+            {
+              "id": "bezae",
+              "label": "Codex Bezae (D, d)",
+              "date": "c. 400",
+              "reading": "anger"
+            }
           ],
-          "edges": [["mark","mtlk"],["mark","main"],["mark","west"],["west","syr"],["west","lat"],["west","bezae"],["lat","bezae"]]
+          "edges": [
+            [
+              "mark",
+              "mtlk"
+            ],
+            [
+              "mark",
+              "main"
+            ],
+            [
+              "mark",
+              "west"
+            ],
+            [
+              "west",
+              "syr"
+            ],
+            [
+              "west",
+              "lat"
+            ],
+            [
+              "west",
+              "bezae"
+            ],
+            [
+              "lat",
+              "bezae"
+            ]
+          ]
         },
         "explains": [
           "The shape of the tradition: one early strand against everything else.",
           "Why the oldest Latin (e) and the Sinaitic Syriac have compassion.",
           "Why the Syriac form is a double reading: compassion was already there when anger arrived.",
-          "Why anger appears in Latin and Syriac together, without any contact between them."
+          "Why anger appears in both Latin and Syriac: both draw on an early Greek text, perhaps carried east by Tatian."
         ],
         "costs": [
           "It needs a reason for a scribe to turn compassion into anger. Proposals: the pull of ἐμβριμησάμενος in verse 43; “if you will” heard as an affront; an accidental swap of a rare word for a common look-alike.",
@@ -198,20 +752,77 @@
           "Matthew's silence at 8:3 needs explaining, since he usually keeps Mark's compassion."
         ],
         "holders": [
-          { "name": "Ernst Haenchen", "year": 1966, "note": "Unusual among commentators in arguing strongly for σπλαγχνισθείς (so France).", "basis": "reported" },
-          { "name": "Bruce Metzger / UBS committee", "year": 1971, "note": "“Difficult to come to a firm decision”; swayed by the diversity and character of the evidence. Rated {B} since UBS4.", "basis": "reported" },
-          { "name": "Peter Head", "year": 1993, "note": "“Diverse and strong external attestation.”", "basis": "reported" },
-          { "name": "J. Donahue & D. Harrington", "year": 2002, "note": "Weight of the best manuscripts; anger left alone at 3:5 and 10:14; Jesus compassionate at 6:34, 8:2, 9:22.", "basis": "read" },
-          { "name": "Adela Yarbro Collins", "year": 2007, "note": "Reads the scene as moving from pity (v. 41) to anger (v. 43).", "basis": "read" },
-          { "name": "Robert Stein", "year": 2008, "basis": "reported" },
-          { "name": "Peter J. Williams", "year": 2012, "note": "ὀργισθείς could arise from σπλαγχνισθείς “largely by accident”: same ending, a rare word replaced by the commonest -ισθείς form.", "basis": "abstract" },
-          { "name": "NA28 / UBS5", "year": 2012, "note": "Print σπλαγχνισθείς.", "basis": "read" },
-          { "name": "Tyndale House GNT", "year": 2017, "note": "Prints σπλαγχνισθείς.", "basis": "reported" },
-          { "name": "S. Kristianto", "year": 2018, "note": "Pre-genealogical coherence favours σπλαγχνισθείς.", "basis": "reported" },
-          { "name": "Editio Critica Maior, Mark", "year": 2021, "note": "Prints σπλαγχνισθείς with no split guiding line.", "basis": "read" }
+          {
+            "name": "Ernst Haenchen",
+            "year": 1966,
+            "note": "Unusual among commentators in arguing strongly for σπλαγχνισθείς (so France).",
+            "basis": "reported"
+          },
+          {
+            "name": "Bruce Metzger / UBS committee",
+            "year": 1971,
+            "note": "“Difficult to come to a firm decision”; swayed by the diversity and character of the evidence. Rated {B} since UBS4.",
+            "basis": "reported"
+          },
+          {
+            "name": "Peter Head",
+            "year": 1993,
+            "note": "“Diverse and strong external attestation.”",
+            "basis": "reported"
+          },
+          {
+            "name": "J. Donahue & D. Harrington",
+            "year": 2002,
+            "note": "Weight of the best manuscripts; anger left alone at 3:5 and 10:14; Jesus compassionate at 6:34, 8:2, 9:22.",
+            "basis": "read"
+          },
+          {
+            "name": "Adela Yarbro Collins",
+            "year": 2007,
+            "note": "Reads the scene as moving from pity (v. 41) to anger (v. 43).",
+            "basis": "read"
+          },
+          {
+            "name": "Robert Stein",
+            "year": 2008,
+            "basis": "reported"
+          },
+          {
+            "name": "Peter J. Williams",
+            "year": 2012,
+            "note": "ὀργισθείς could arise from σπλαγχνισθείς “largely by accident”: a few letters lost in copying, then a scribe restoring the commonest word with the same ending. He grants Ephrem's support but traces it to Tatian's years in Rome (p. 3).",
+            "basis": "read"
+          },
+          {
+            "name": "NA28 / UBS5",
+            "year": 2012,
+            "note": "Print σπλαγχνισθείς.",
+            "basis": "read"
+          },
+          {
+            "name": "Tyndale House GNT",
+            "year": 2017,
+            "note": "Prints σπλαγχνισθείς.",
+            "basis": "reported"
+          },
+          {
+            "name": "S. Kristianto",
+            "year": 2018,
+            "note": "Pre-genealogical coherence favours σπλαγχνισθείς.",
+            "basis": "reported"
+          },
+          {
+            "name": "Editio Critica Maior, Mark",
+            "year": 2021,
+            "note": "Prints σπλαγχνισθείς with no split guiding line.",
+            "basis": "read"
+          }
         ],
         "variants": [
-          { "title": "Where Taylor 2020 fits", "text": "D. G. K. Taylor does not decide which reading is original. His point is narrower and affects all three models: the Syriac evidence shows ὀργισθείς was a real Greek reading, not a Latin accident." }
+          {
+            "title": "Where Taylor 2020 fits",
+            "text": "D. G. K. Taylor does not decide which reading is original. His point is narrower and affects all three models: the Syriac evidence shows ὀργισθείς was a real Greek reading, not a Latin accident."
+          }
         ]
       },
       {
@@ -220,15 +831,78 @@
         "short": "No Greek ὀργισθείς ever existed before Bezae: iratus arose inside the Latin tradition and Bezae's Greek column was conformed to it.",
         "stemma": {
           "nodes": [
-            { "id": "mark", "label": "Mark", "date": "c. 70", "reading": "compassion" },
-            { "id": "mtlk", "label": "Matthew, Luke", "date": "c. 80–90", "reading": "none" },
-            { "id": "main", "label": "The whole Greek tradition · Syriac · Coptic", "date": "", "reading": "compassion" },
-            { "id": "latold", "label": "Earliest Latin translation (African: e)", "date": "3rd century", "reading": "compassion" },
-            { "id": "lat", "label": "Italian Old Latin (a, ff², r¹, d)", "date": "later 4th century", "reading": "anger", "note": "iratus arises within Latin" },
-            { "id": "bezae", "label": "Bezae's Greek column", "date": "c. 400", "reading": "anger", "note": "Greek conformed to a Latin model" },
-            { "id": "syr", "label": "Ephrem, sy-F", "date": "before 373", "reading": "both", "note": "unexplained by this model: needs coincidence or Latin–Syriac contact" }
+            {
+              "id": "mark",
+              "label": "Mark",
+              "date": "c. 70",
+              "reading": "compassion"
+            },
+            {
+              "id": "mtlk",
+              "label": "Matthew, Luke",
+              "date": "c. 80–90",
+              "reading": "none"
+            },
+            {
+              "id": "main",
+              "label": "The whole Greek tradition · Syriac · Coptic",
+              "date": "",
+              "reading": "compassion"
+            },
+            {
+              "id": "latold",
+              "label": "Earliest Latin translation (African: e)",
+              "date": "3rd century",
+              "reading": "compassion"
+            },
+            {
+              "id": "lat",
+              "label": "Italian Old Latin (a, ff², r¹, d)",
+              "date": "later 4th century",
+              "reading": "anger",
+              "note": "iratus arises within Latin"
+            },
+            {
+              "id": "bezae",
+              "label": "Bezae's Greek column",
+              "date": "c. 400",
+              "reading": "anger",
+              "note": "Greek conformed to a Latin model"
+            },
+            {
+              "id": "syr",
+              "label": "Ephrem, sy-F",
+              "date": "before 373",
+              "reading": "both",
+              "note": "unexplained by this model: needs coincidence or Latin–Syriac contact"
+            }
           ],
-          "edges": [["mark","mtlk"],["mark","main"],["main","latold"],["latold","lat"],["lat","bezae"],["main","syr"]]
+          "edges": [
+            [
+              "mark",
+              "mtlk"
+            ],
+            [
+              "mark",
+              "main"
+            ],
+            [
+              "main",
+              "latold"
+            ],
+            [
+              "latold",
+              "lat"
+            ],
+            [
+              "lat",
+              "bezae"
+            ],
+            [
+              "main",
+              "syr"
+            ]
+          ]
         },
         "explains": [
           "Why no other Greek manuscript has ὀργισθείς.",
@@ -238,25 +912,62 @@
         ],
         "costs": [
           "The Syriac evidence. Ephrem and the Old Syriac palimpsest know “being angered” in a region with no Latin gospels.",
-          "The proposed Latin slip (autem misertus → autem iratus) does not fit: the anger manuscripts read Et iratus.",
+          "The autem misertus → autem iratus slip does not fit: the anger manuscripts read Et iratus. Johnson's main proposal, miseratus → iratus, avoids this objection but still leaves the Syriac unexplained.",
           "The direction of influence between Bezae's columns is disputed; Lorenz himself left it open in 2016."
         ],
         "holders": [
-          { "name": "J. Rendel Harris", "year": 1891, "note": "An ambiguous Latin motus, later resolved as misertus or iratus, with Bezae's Greek retranslated.", "basis": "reported" },
-          { "name": "Peter J. Williams (blog)", "year": 2007, "note": "Suggested autem miser(a)tus → autem iratus; later preferred a Greek-internal accident.", "basis": "read" },
-          { "name": "Jeff Cate", "year": 2011, "note": "Latin has no verb equivalent to σπλαγχνίζομαι; the variant “arose in Latin”.", "basis": "reported" },
-          { "name": "Peter Lorenz", "year": 2016, "note": "The anger witnesses reduce to one insular Latin tradition; “we are essentially counting the same Greek witness over and over.”", "basis": "read" },
-          { "name": "James Snapp", "year": 2016, "note": "Bezae's Greek retranslated from Latin.", "basis": "read" },
-          { "name": "Nathan Johnson", "year": 2017, "note": "“‘Anger’ originating in the Old Latin manuscript tradition”; the Syriac witness dismissed.", "basis": "abstract" },
-          { "name": "Peter Lorenz (monograph)", "year": 2021, "note": "Bezae's Greek text of Mark was corrected towards a Latin model at the end of the fourth century.", "basis": "read" }
+          {
+            "name": "J. Rendel Harris",
+            "year": 1891,
+            "note": "An ambiguous Latin motus, later resolved as misertus or iratus, with Bezae's Greek retranslated.",
+            "basis": "reported"
+          },
+          {
+            "name": "Peter J. Williams (blog)",
+            "year": 2007,
+            "note": "Suggested autem miser(a)tus → autem iratus; later preferred a Greek-internal accident.",
+            "basis": "read"
+          },
+          {
+            "name": "Jeff Cate",
+            "year": 2011,
+            "note": "Latin has no verb equivalent to σπλαγχνίζομαι; the variant “arose in Latin”.",
+            "basis": "reported"
+          },
+          {
+            "name": "Peter Lorenz",
+            "year": 2016,
+            "note": "The anger witnesses reduce to one insular Latin tradition; “we are essentially counting the same Greek witness over and over.”",
+            "basis": "read"
+          },
+          {
+            "name": "James Snapp",
+            "year": 2016,
+            "note": "Bezae's Greek retranslated from Latin.",
+            "basis": "read"
+          },
+          {
+            "name": "Nathan Johnson",
+            "year": 2017,
+            "note": "iratus arose from miseratus by loss of letters (MISERATUS → ISERATUS → IRATUS); Bezae's scribe, who struggled with σπλαγχνίζομαι, conformed his Greek to the Latin; Ephrem's “anger” is explained from verse 43 (pp. 189–91, 195, 199–201).",
+            "basis": "read"
+          },
+          {
+            "name": "Peter Lorenz (monograph)",
+            "year": 2021,
+            "note": "Bezae's Greek text of Mark was corrected towards a Latin model at the end of the fourth century.",
+            "basis": "read"
+          }
         ],
         "variants": [
-          { "title": "Written before the Syriac palimpsest was known", "text": "Williams, Lorenz and Johnson all argued that support for anger comes exclusively from Latin-speaking areas. Taylor published the Old Syriac text in 2020." }
+          {
+            "title": "Written before the Syriac palimpsest was known",
+            "text": "Lorenz and Johnson argued that all support for anger is tied to Latin. Williams granted Ephrem's support but suggested that Tatian, who had studied in Rome, might have drawn on early Latin renderings. Taylor published the Old Syriac text in 2020."
+          }
         ]
       }
     ]
   },
-
   "arguments": {
     "intro": "Each argument is given with the case for it, the replies, and where the reasoning currently stands. The markers show how each one bears on the three transmission models.",
     "groups": [
@@ -271,16 +982,40 @@
             "claim": "σπλαγχνισθείς is read in every Greek text-form and in every ancient version.",
             "favours": "compassion",
             "pro": [
-              { "text": "The UBS committee was moved by “the diversity and character of evidence”, not by numbers.", "ref": "Metzger, Textual Commentary", "basis": "reported" },
-              { "text": "The oldest branch of each version where anger appears still has compassion: the African Latin (e) and the Sinaitic Syriac.", "ref": "Willker; Taylor 2020", "basis": "read" },
-              { "text": "The Greek tradition shows no disturbance at this point — no marginal notes, corrections or mixed forms.", "ref": "Lorenz 2016, §4.2", "basis": "read" }
+              {
+                "text": "The UBS committee was moved by “the diversity and character of evidence”, not by numbers.",
+                "ref": "Metzger, Textual Commentary",
+                "basis": "reported"
+              },
+              {
+                "text": "The oldest branch of each version where anger appears still has compassion: the African Latin (e) and the Sinaitic Syriac.",
+                "ref": "Willker; Taylor 2020",
+                "basis": "read"
+              },
+              {
+                "text": "The Greek tradition shows no disturbance at this point — no marginal notes, corrections or mixed forms.",
+                "ref": "Lorenz 2016, §4.2",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Manuscripts must be weighed, not counted; slender support says nothing about a reading's merits.", "ref": "Elliott 1981", "basis": "reported" },
-              { "text": "A single early change, upstream of most surviving lines, would produce exactly this picture. Mark was little copied in the second century.", "ref": "Ehrman 2003", "basis": "reported" }
+              {
+                "text": "Manuscripts must be weighed, not counted; slender support says nothing about a reading's merits.",
+                "ref": "Elliott 1981",
+                "basis": "reported"
+              },
+              {
+                "text": "Once a scribe made the change, it “could easily have spread like wildfire … until the original text came to be virtually lost except in a few surviving sources.” No manuscript of the verse is older than Vaticanus, nearly three centuries after Mark.",
+                "ref": "Ehrman 2003, pp. 122–23",
+                "basis": "read"
+              }
             ],
             "status": "Strong, but not decisive on its own: it shows where the readings were, not which came first.",
-            "bearsOn": { "A": "strains", "B": "supports", "C": "supports" }
+            "bearsOn": {
+              "A": "strains",
+              "B": "supports",
+              "C": "supports"
+            }
           },
           {
             "id": "E2",
@@ -288,15 +1023,35 @@
             "claim": "The four Latin manuscripts and Bezae's Greek are not five witnesses but one tradition.",
             "favours": "compassion",
             "pro": [
-              { "text": "Latin manuscripts that share a rendering go back to one translation and count once. The evidence “is equivalent to no more than two Greek witnesses”.", "ref": "Lorenz 2016, §2", "basis": "read" },
-              { "text": "a, d, ff² and r¹ share one text-type, the “Western” gospel order and a northern Italian milieu of c. 350–380.", "ref": "Lorenz 2016, §3", "basis": "read" }
+              {
+                "text": "Latin manuscripts that share a rendering go back to one translation and count once. The evidence “is equivalent to no more than two Greek witnesses”.",
+                "ref": "Lorenz 2016, §2",
+                "basis": "read"
+              },
+              {
+                "text": "a, d, ff² and r¹ share one text-type, the “Western” gospel order and a northern Italian milieu of c. 350–380.",
+                "ref": "Lorenz 2016, §3",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Even on this count the reading reaches back before c. 350, earlier than any Greek manuscript of the verse except ℵ and B.", "ref": "", "basis": "read" },
-              { "text": "The Old Syriac palimpsest and Ephrem add a second, non-Latin region.", "ref": "Taylor 2020", "basis": "read" }
+              {
+                "text": "Even on this count the reading reaches back before c. 350, earlier than any Greek manuscript of the verse except ℵ and B.",
+                "ref": "",
+                "basis": "read"
+              },
+              {
+                "text": "The Old Syriac palimpsest and Ephrem add a second, non-Latin region.",
+                "ref": "Taylor 2020",
+                "basis": "read"
+              }
             ],
             "status": "The Latin witnesses do collapse into one. The Syriac evidence, published later, is what keeps the anger reading from being purely local.",
-            "bearsOn": { "A": "strains", "B": "neutral", "C": "supports" }
+            "bearsOn": {
+              "A": "strains",
+              "B": "neutral",
+              "C": "supports"
+            }
           },
           {
             "id": "E3",
@@ -304,18 +1059,55 @@
             "claim": "Bezae's Greek text of Mark is late and mixed, and at this verse it may simply follow the Latin.",
             "favours": "compassion",
             "pro": [
-              { "text": "Lorenz assigns 410 readings in Bezae's Mark to a “Latin layer”, 332 of them with no other Greek support; ὀργισθείς is in that list.", "ref": "Lorenz 2021, ch. 6, table 6.8", "basis": "read" },
-              { "text": "In the same clause Bezae reads αὐτοῦ ἥψατο αὐτοῦ, which combines the reading of ℵ B with the majority reading — a sign of a text that developed after both.", "ref": "Lorenz 2021, §7.4.1.2", "basis": "read" },
-              { "text": "Bezae sides with ℵ B for καί at the start of the verse, then departs from all Greek manuscripts in the next word.", "ref": "NA28 apparatus", "basis": "read" }
+              {
+                "text": "Lorenz assigns 410 readings in Bezae's Mark to a “Latin layer”, 332 of them with no other Greek support; ὀργισθείς is in that list.",
+                "ref": "Lorenz 2021, ch. 6, table 6.8",
+                "basis": "read"
+              },
+              {
+                "text": "In the same clause Bezae reads αὐτοῦ ἥψατο αὐτοῦ, which combines the reading of ℵ B with the majority reading — a sign of a text that developed after both.",
+                "ref": "Lorenz 2021, §7.4.1.2",
+                "basis": "read"
+              },
+              {
+                "text": "Bezae sides with ℵ B for καί at the start of the verse, then departs from all Greek manuscripts in the next word.",
+                "ref": "NA28 apparatus",
+                "basis": "read"
+              },
+              {
+                "text": "The scribe misspells σπλαγχνίζομαι in 7 of those 11 places but has no such trouble with ὀργίζομαι or with comparable verbs. A parallel case of Latin influence: at 3:5 Bezae alone reads νεκρώσει, evidently from the Latin emortua.",
+                "ref": "Johnson 2017, pp. 199–202",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Bezae preserves weakly attested original readings elsewhere in Mark, and 1:41 is one of them.", "ref": "Güting 1996", "basis": "reported" },
-              { "text": "Readings of D supported by the Old Latin “are evidently part of a much older tradition” and should not be treated as singular.", "ref": "Royse, quoted in Lorenz 2021", "basis": "read" },
-              { "text": "Wholesale Latinization of Bezae's Greek is not accepted, though in places it remains the best explanation.", "ref": "Parker, quoted in Lorenz 2016", "basis": "reported" },
-              { "text": "Bezae's scribe keeps σπλαγχνίζομαι in all eleven other Gospel occurrences (with several misspellings, e.g. ἐπλαννίσθη at Mark 6:34). The word was not being avoided.", "ref": "INTF transcription of 05", "basis": "read" }
+              {
+                "text": "Bezae preserves weakly attested original readings elsewhere in Mark, and 1:41 is one of them.",
+                "ref": "Güting 1996",
+                "basis": "reported"
+              },
+              {
+                "text": "Readings of D supported by the Old Latin “are evidently part of a much older tradition” and should not be treated as singular.",
+                "ref": "Royse, quoted in Lorenz 2021",
+                "basis": "read"
+              },
+              {
+                "text": "Wholesale Latinization of Bezae's Greek is not accepted, though in places it remains the best explanation.",
+                "ref": "Parker, quoted in Lorenz 2016",
+                "basis": "reported"
+              },
+              {
+                "text": "Bezae's scribe keeps σπλαγχνίζομαι in all eleven other Gospel occurrences, so he was not avoiding the word. (Johnson's claim is narrower: the scribe changed it only here, where his Latin read iratus.)",
+                "ref": "INTF transcription of 05; Johnson 2017, p. 201",
+                "basis": "read"
+              }
             ],
-            "status": "Bezae on its own proves little either way. The case for an early Greek ὀργισθείς rests on the Latin–Syriac agreement, not on Bezae.",
-            "bearsOn": { "A": "strains", "B": "neutral", "C": "supports" }
+            "status": "Bezae on its own proves little either way. Johnson's spelling data make the Latin the likeliest source of Bezae's own ὀργισθείς, which fits all three models. The case for an early Greek ὀργισθείς rests on the Latin–Syriac agreement, not on Bezae.",
+            "bearsOn": {
+              "A": "strains",
+              "B": "neutral",
+              "C": "supports"
+            }
           },
           {
             "id": "E4",
@@ -323,18 +1115,55 @@
             "claim": "Ephrem and an Old Syriac manuscript attest “being angered” outside the Latin world.",
             "favours": "anger",
             "pro": [
-              { "text": "The palimpsest reads “had compassion on him and, being angered, stretched out his hand” — “precisely the double reading that Ephrem was attempting to explain”.", "ref": "Taylor 2020, p. 22", "basis": "read" },
-              { "text": "Ephrem cites the gospel word itself (“Our Lord was angry, therefore”); mistranslation in the standard editions hid this.", "ref": "Taylor 2020, pp. 21–22", "basis": "read" },
-              { "text": "Agreements between Syriac and Old Latin against the Greek majority are best explained by “a lost common Greek reading”.", "ref": "Taylor 2020, p. 22", "basis": "read" }
+              {
+                "text": "The palimpsest reads “had compassion on him and, being angered, stretched out his hand” — “precisely the double reading that Ephrem was attempting to explain”.",
+                "ref": "Taylor 2020, p. 22",
+                "basis": "read"
+              },
+              {
+                "text": "Ephrem cites the gospel word itself (“Our Lord was angry, therefore”); mistranslation in the standard editions hid this.",
+                "ref": "Taylor 2020, pp. 21–22",
+                "basis": "read"
+              },
+              {
+                "text": "Agreements between Syriac and Old Latin against the Greek majority are best explained by “a lost common Greek reading”.",
+                "ref": "Taylor 2020, p. 22",
+                "basis": "read"
+              },
+              {
+                "text": "The same rare root, as mpār, stands in the Old Syriac palimpsest at Mark 1:41 itself, and the verb “is regularly used in Syriac with the meaning ‘to be angry, angered’”. Johnson's two objections were written before this was known.",
+                "ref": "Taylor 2020, pp. 21–22",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Ephrem's anger word (root pwr) is not the usual Syriac equivalent of ὀργίζομαι.", "ref": "Johnson 2017, p. 190", "basis": "reported" },
-              { "text": "Ephrem's talk of anger is anti-Marcionite rhetoric, not a citation. (Taylor: “a clever argument … quite implausible”.)", "ref": "Lorenz 2016, §4.1", "basis": "read" },
-              { "text": "Ephrem's language “is fully accounted for by ἐμβριμησάμενος” in verse 43.", "ref": "Lake 1923", "basis": "abstract" },
-              { "text": "The Syriac form is a double reading. It presupposes a text with compassion and so is not evidence for anger instead of compassion.", "ref": "", "basis": "read" }
+              {
+                "text": "Ephrem's anger word (root pwr) is rare and is not the usual Syriac equivalent of ὀργίζομαι, which is rgez; and Ephrem “never in fact quotes ‘anger’ from his text”.",
+                "ref": "Johnson 2017, p. 189",
+                "basis": "read"
+              },
+              {
+                "text": "Ephrem's talk of anger is anti-Marcionite rhetoric, not a citation. (Taylor: “a clever argument … quite implausible”.)",
+                "ref": "Lorenz 2016, §4.1",
+                "basis": "read"
+              },
+              {
+                "text": "Ephrem ties the anger to the rebuke and dismissal of verses 43–44, using the Syriac word that renders ἐμβριμησάμενος there; his language “is fully accounted for by ἐμβριμησάμενος”.",
+                "ref": "Lake 1923, p. 197 n. 1, quoted in Johnson 2017, p. 190",
+                "basis": "reported"
+              },
+              {
+                "text": "The Syriac form is a double reading. It presupposes a text with compassion and so is not evidence for anger instead of compassion.",
+                "ref": "cf. Johnson 2017, pp. 191–92 (Ephrem knew “compassion”)",
+                "basis": "read"
+              }
             ],
-            "status": "This is the newest evidence and the least absorbed in the literature. One point is still open: how the palimpsest renders verse 43 has not been published, so it is not yet certain that “being angered” translates ὀργισθείς and not a displaced ἐμβριμησάμενος.",
-            "bearsOn": { "A": "supports", "B": "supports", "C": "strains" }
+            "status": "This is the newest evidence and the least absorbed in the literature. One point is still open: how the palimpsest renders verse 43 has not been published, so it is not yet certain that “being angered” translates ὀργισθείς and not a displaced ἐμβριμησάμενος. Against displacement: Ephrem uses both the rebuke word of verse 43 and the separate anger word, which suggests his text had both.",
+            "bearsOn": {
+              "A": "supports",
+              "B": "supports",
+              "C": "strains"
+            }
           },
           {
             "id": "E5",
@@ -342,15 +1171,40 @@
             "claim": "Some copies drop the participle altogether.",
             "favours": "open",
             "pro": [
-              { "text": "The absence of either word in Old Latin b suggests a copyist found iratus and removed it.", "ref": "France 2002", "basis": "read" }
+              {
+                "text": "The absence of either word in Old Latin b suggests a copyist found iratus and removed it.",
+                "ref": "France 2002",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "The Greek omitters are late Byzantine copies whose exemplars certainly read σπλαγχνισθείς; they are assimilating to Matthew and Luke.", "ref": "", "basis": "reported" },
-              { "text": "If scribes were troubled by anger they would omit, as these do — not substitute a different emotion.", "ref": "Snapp 2016", "basis": "read" },
-              { "text": "Minuscule 1358, often cited for ὀργισθείς, in fact omits.", "ref": "Cate 2011", "basis": "reported" }
+              {
+                "text": "The Greek omitters are late Byzantine copies whose exemplars certainly read σπλαγχνισθείς; they are assimilating to Matthew and Luke.",
+                "ref": "",
+                "basis": "reported"
+              },
+              {
+                "text": "If scribes were troubled by anger they would omit, as these do — not substitute a different emotion.",
+                "ref": "Snapp 2016",
+                "basis": "read"
+              },
+              {
+                "text": "Minuscule 1358, often cited for ὀργισθείς, in fact omits.",
+                "ref": "Cate 2011",
+                "basis": "reported"
+              },
+              {
+                "text": "The omissions in b and in lectionary 866 need not be deliberate: “the tendency of manuscripts to omit words accidentally is a sufficient explanation.”",
+                "ref": "Williams 2012, p. 7 n. 14",
+                "basis": "read"
+              }
             ],
             "status": "Ambiguous. Only b is close enough to the anger witnesses for its silence to mean anything.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "neutral" }
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "neutral"
+            }
           },
           {
             "id": "E6",
@@ -358,13 +1212,25 @@
             "claim": "Eleven Latin witnesses show eight different forms and four different verbs.",
             "favours": "compassion",
             "pro": [
-              { "text": "Latin had no single verb for σπλαγχνίζομαι, so translators improvised — fertile ground for a stray rendering.", "ref": "Cate 2011; Lorenz 2016, pp. 214–15", "basis": "read" }
+              {
+                "text": "Latin had no single verb for σπλαγχνίζομαι, so translators improvised — fertile ground for a stray rendering.",
+                "ref": "Cate 2011; Lorenz 2016, pp. 214–15",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "The same variety could be successive corrections away from an inherited iratus: c and q may have been corrected to the Vulgate.", "ref": "Haelewyck 2013", "basis": "reported" }
+              {
+                "text": "The same variety could be successive corrections away from an inherited iratus: c and q may have been corrected to the Vulgate.",
+                "ref": "Haelewyck 2013",
+                "basis": "reported"
+              }
             ],
             "status": "Shows that something happened in Latin, not what.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "supports" }
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "supports"
+            }
           }
         ]
       },
@@ -379,20 +1245,57 @@
             "claim": "Scribes would turn anger into compassion, never the reverse.",
             "favours": "anger",
             "pro": [
-              { "text": "“Scribes might well have changed a statement that Jesus felt anger to one that he felt compassion, but it is difficult to see why they should have made the opposite change.”", "ref": "Hooker 1991, p. 79", "basis": "read" },
-              { "text": "The reading “is so striking and ‘improbable’ that a correction to the ‘safer’ σπλαγχνισθείς would be very natural”.", "ref": "France 2002, p. 115", "basis": "read" }
+              {
+                "text": "“Scribes might well have changed a statement that Jesus felt anger to one that he felt compassion, but it is difficult to see why they should have made the opposite change.”",
+                "ref": "Hooker 1991, p. 79",
+                "basis": "read"
+              },
+              {
+                "text": "The reading “is so striking and ‘improbable’ that a correction to the ‘safer’ σπλαγχνισθείς would be very natural”.",
+                "ref": "France 2002, p. 115",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Copyists left Jesus' anger at Mark 3:5 and his indignation at 10:14 alone.", "ref": "Metzger", "basis": "reported" },
-              { "text": "Scribes sometimes added anger: Bezae and others insert ἐν ὀργῇ at Luke 6:10.", "ref": "Willker", "basis": "reported" },
-              { "text": "σπλαγχνίζομαι is rare outside the New Testament; linguistically it is the harder word.", "ref": "Williams 2012", "basis": "abstract" },
-              { "text": "Interpreters ancient and modern explain the anger so readily that its difficulty is “overstated”.", "ref": "Lorenz 2016, p. 214", "basis": "read" }
+              {
+                "text": "Copyists left Jesus' anger at Mark 3:5 and his indignation at 10:14 alone.",
+                "ref": "Metzger",
+                "basis": "reported"
+              },
+              {
+                "text": "Scribes sometimes added anger: ἐν ὀργῇ at Luke 6:10 (Bezae and others) and ἐπιτιμήσας at Mark 10:14 (W Θ and others). Nowhere in the manuscripts of Mark is Jesus' anger censored.",
+                "ref": "Johnson 2017, pp. 197–98; Willker",
+                "basis": "read"
+              },
+              {
+                "text": "σπλαγχνίζομαι never occurs as a deponent in the Septuagint, while ὀργίζομαι is common there. By Ehrman's own rule that “readers typically confuse unusual words for common ones”, a slip from compassion to anger is the likelier one.",
+                "ref": "Williams 2012, pp. 8–9",
+                "basis": "read"
+              },
+              {
+                "text": "Interpreters ancient and modern explain the anger so readily that its difficulty is “overstated”.",
+                "ref": "Lorenz 2016, p. 214",
+                "basis": "read"
+              },
+              {
+                "text": "If anger fits the rebuke of verse 43, then on narrative grounds it is no longer the harder reading — compassion is.",
+                "ref": "Johnson 2017, p. 198 n. 85",
+                "basis": "read"
+              }
             ],
             "rejoinder": [
-              { "text": "At 3:5 and 10:14 “there was obvious cause for anger”; here there is none, which is why only this one was changed.", "ref": "France 2002; Marcus 2000", "basis": "read" }
+              {
+                "text": "At 3:5 and 10:14 “there was obvious cause for anger”; here there is none, which is why only this one was changed.",
+                "ref": "France 2002; Marcus 2000",
+                "basis": "read"
+              }
             ],
-            "status": "The strongest single argument for anger, and the reason most commentators adopt it. No proposed route from compassion to anger is as natural.",
-            "bearsOn": { "A": "supports", "B": "strains", "C": "strains" }
+            "status": "The strongest single argument for anger, and the reason most commentators adopt it. Its premise — that early scribes were embarrassed by an angry Jesus — is contested, since elsewhere they add anger and never remove it.",
+            "bearsOn": {
+              "A": "supports",
+              "B": "strains",
+              "C": "strains"
+            }
           },
           {
             "id": "T2",
@@ -400,16 +1303,45 @@
             "claim": "ὀργισθείς replaced σπλαγχνισθείς by a copying slip.",
             "favours": "compassion",
             "pro": [
-              { "text": "The words share their last six letters; ὀργισθείς is the commonest biblical form in -ισθείς, σπλαγχνισθείς a rarity.", "ref": "Williams 2012", "basis": "abstract" },
-              { "text": "If anger were original, it would be a remarkable coincidence that a substitute existed which is both a perfect contextual fit and graphically similar.", "ref": "Williams 2012", "basis": "abstract" },
-              { "text": "Bezae's own scribe stumbles over the word repeatedly: ἐπλαννίσθη (Mark 6:34), σπλαχνίζομαι (8:2), ἐσπλαγχίσθη (Luke 10:33).", "ref": "INTF transcription of 05", "basis": "read" }
+              {
+                "text": "In early capitals the two words end with the same six letters, begin with the same curved stroke (Ο, Ϲ) and share a Γ. ὀργισθείς is the commonest biblical form in -ισθείς, while the verb σπλαγχνίζομαι is absent from the Septuagint.",
+                "ref": "Williams 2012, pp. 6–8",
+                "basis": "read"
+              },
+              {
+                "text": "A two-step route: a few letters lost by eye-skip (ΠΛΑ or ΧΝ), then a later scribe making sense of Ϲ…ΓΙϹΘΕΙϹ as the familiar ΟΡΓΙϹΘΕΙϹ.",
+                "ref": "Williams 2012, p. 6",
+                "basis": "read"
+              },
+              {
+                "text": "If anger were original, it would be a remarkable coincidence that a substitute existed which is both a perfect contextual fit and graphically similar.",
+                "ref": "Williams 2012, pp. 7–8, 12",
+                "basis": "read"
+              },
+              {
+                "text": "The word did trouble copyists. Bezae's scribe misspells it in 7 of its 11 other Gospel occurrences, e.g. σπλαχνίζομαι (Mark 8:2), ἐσπλαγχίσθη (Luke 10:33) and a corrected false start at Mark 6:34.",
+                "ref": "Johnson 2017, pp. 199–201; INTF transcription of 05",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "ΟΡΓ- is far shorter than ΣΠΛΑΓΧΝ-; the words do not look alike.", "ref": "Goodacre; Snapp (ETC comments)", "basis": "read" },
-              { "text": "Proposals of accidental change are “unconvincing”.", "ref": "NET Bible note", "basis": "read" }
+              {
+                "text": "ΟΡΓ- is far shorter than ΣΠΛΑΓΧΝ-; the words do not look alike.",
+                "ref": "Goodacre; Snapp (ETC comments)",
+                "basis": "read"
+              },
+              {
+                "text": "Proposals of accidental change are “unconvincing”.",
+                "ref": "NET Bible note",
+                "basis": "read"
+              }
             ],
-            "status": "Possible, not compelling. It supplies a mechanism for Model B without a motive.",
-            "bearsOn": { "A": "strains", "B": "supports", "C": "neutral" }
+            "status": "The best-developed route from compassion to anger. It supplies a mechanism without a motive, and it answers the objection that the two words differ in length.",
+            "bearsOn": {
+              "A": "strains",
+              "B": "supports",
+              "C": "neutral"
+            }
           },
           {
             "id": "T3",
@@ -417,15 +1349,40 @@
             "claim": "Anger in verse 41 was suggested by ἐμβριμησάμενος two verses later.",
             "favours": "compassion",
             "pro": [
-              { "text": "One of the origins the UBS committee considered.", "ref": "Metzger", "basis": "reported" },
-              { "text": "Ephrem shows how an ancient reader got there: “in response to ‘if you will’ he was angered”.", "ref": "Taylor 2020, p. 21", "basis": "read" }
+              {
+                "text": "One of the origins the UBS committee considered.",
+                "ref": "Metzger",
+                "basis": "reported"
+              },
+              {
+                "text": "Ephrem shows how an ancient reader got there: “in response to ‘if you will’ he was angered”.",
+                "ref": "Taylor 2020, p. 21",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "It does not explain why a copyist would act two verses early, replacing a word that made good sense.", "ref": "", "basis": "read" },
-              { "text": "The same link is used the other way: verse 43 shows the anger of verse 41 is at home in the story.", "ref": "Ehrman 2003", "basis": "reported" }
+              {
+                "text": "A copyist would more likely change what he was writing in light of what he had already copied, not what came two verses later; and why not change verse 43 itself?",
+                "ref": "Ehrman 2003, pp. 127–28",
+                "basis": "read"
+              },
+              {
+                "text": "The same link is used the other way: verse 43 shows the anger of verse 41 is at home in the story.",
+                "ref": "Ehrman 2003, p. 133",
+                "basis": "read"
+              },
+              {
+                "text": "Even Williams, who defends compassion, judges this explanation “slim”.",
+                "ref": "Williams 2012, p. 5",
+                "basis": "read"
+              }
             ],
-            "status": "A real possibility that cuts both ways.",
-            "bearsOn": { "A": "neutral", "B": "supports", "C": "neutral" }
+            "status": "Doubted on both sides. It survives mainly as the way ancient readers such as Ephrem made sense of the scene.",
+            "bearsOn": {
+              "A": "neutral",
+              "B": "supports",
+              "C": "neutral"
+            }
           },
           {
             "id": "T4",
@@ -433,14 +1390,35 @@
             "claim": "ethraḥam (“he had pity”) and ethraʿem (“he was enraged”) differ by one guttural.",
             "favours": "open",
             "pro": [
-              { "text": "Proposed by Zahn (Aramaic) and Rendel Harris (Syriac); listed by Metzger; still mentioned by Marcus.", "ref": "Marcus 2000, p. 206; Willker", "basis": "read" }
+              {
+                "text": "Proposed by Zahn (Aramaic) and Rendel Harris (Syriac); listed by Metzger; still mentioned by Marcus.",
+                "ref": "Marcus 2000, p. 206; Willker",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "No Aramaic Mark is known to have existed.", "ref": "Proctor 1999; Bąk 2018", "basis": "reported" },
-              { "text": "The anger word the Syriac tradition actually has is mpār, not ethraʿem.", "ref": "Taylor 2020", "basis": "read" }
+              {
+                "text": "No Aramaic Mark is known to have existed.",
+                "ref": "Proctor 1999; Bąk 2018",
+                "basis": "reported"
+              },
+              {
+                "text": "The anger word the Syriac tradition actually has is mpār, not ethraʿem.",
+                "ref": "Taylor 2020",
+                "basis": "read"
+              },
+              {
+                "text": "Ehrman and Williams, on opposite sides, both judge it improbable.",
+                "ref": "Ehrman 2003, p. 128; Williams 2012, p. 5",
+                "basis": "read"
+              }
             ],
             "status": "Now effectively ruled out by the Syriac evidence itself.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "neutral" }
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "neutral"
+            }
           },
           {
             "id": "T5",
@@ -448,14 +1426,35 @@
             "claim": "iratus arose inside the Latin tradition.",
             "favours": "compassion",
             "pro": [
-              { "text": "An ambiguous motus resolved two ways (Harris 1891); or autem miser(a)tus → autem iratus by loss of letters (Williams 2007).", "ref": "Willker; Williams 2007", "basis": "read" }
+              {
+                "text": "An ambiguous motus resolved two ways (Harris 1891); or autem miser(a)tus → autem iratus by loss of letters (Williams 2007).",
+                "ref": "Willker; Williams 2007",
+                "basis": "read"
+              },
+              {
+                "text": "Or simple loss of letters followed by repair: MISERATUS → ISERATUS → IRATUS. The correction in r¹ shows the same step run backwards.",
+                "ref": "Johnson 2017, pp. 194–95",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "The anger manuscripts read Et iratus, not autem iratus; misertus goes with Iesus autem.", "ref": "Willker", "basis": "read" },
-              { "text": "It cannot account for the Syriac.", "ref": "Taylor 2020", "basis": "read" }
+              {
+                "text": "The anger manuscripts read Et iratus, not autem iratus; misertus goes with Iesus autem.",
+                "ref": "Willker",
+                "basis": "read"
+              },
+              {
+                "text": "It cannot account for the Syriac.",
+                "ref": "Taylor 2020",
+                "basis": "read"
+              }
             ],
-            "status": "The specific mechanisms proposed do not fit the Latin wording.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "supports" }
+            "status": "The autem route does not fit the wording (Et iratus). Loss of letters from miseratus remains possible within Latin, but cannot account for the Syriac.",
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "supports"
+            }
           }
         ]
       },
@@ -465,17 +1464,67 @@
         "question": "The two earliest readers of Mark both have no emotion here. What does that show?",
         "table": {
           "caption": "What Matthew and Luke do with Mark's emotion words for Jesus",
-          "columns": ["Mark", "Emotion", "Matthew", "Luke"],
+          "columns": [
+            "Mark",
+            "Emotion",
+            "Matthew",
+            "Luke"
+          ],
           "rows": [
-            ["1:41", "σπλαγχνισθείς / ὀργισθείς", "8:3 — none", "5:13 — none"],
-            ["1:43", "ἐμβριμησάμενος (stern, snorting)", "none here; reused at 9:30", "none"],
-            ["3:5", "μετ᾿ ὀργῆς (anger), συλλυπούμενος (grief)", "12:13 — none", "6:10 — none"],
-            ["6:34", "ἐσπλαγχνίσθη (compassion)", "14:14 — kept", "9:11 — dropped"],
-            ["8:2", "σπλαγχνίζομαι (compassion)", "15:32 — kept", "no parallel"],
-            ["9:22", "σπλαγχνισθείς (in the father's plea)", "17:15 — ἐλέησον", "9:38 — dropped"],
-            ["10:14", "ἠγανάκτησεν (indignant)", "19:14 — none", "18:16 — none"],
-            ["10:21", "ἠγάπησεν αὐτόν (loved him)", "19:21 — none", "18:22 — none"],
-            ["10:52", "— (none in Mark)", "20:34 — adds σπλαγχνισθεὶς … ἥψατο", "18:42 — none"]
+            [
+              "1:41",
+              "σπλαγχνισθείς / ὀργισθείς",
+              "8:3 — none",
+              "5:13 — none"
+            ],
+            [
+              "1:43",
+              "ἐμβριμησάμενος (stern, snorting)",
+              "none here; reused at 9:30",
+              "none"
+            ],
+            [
+              "3:5",
+              "μετ᾿ ὀργῆς (anger), συλλυπούμενος (grief)",
+              "12:13 — none",
+              "6:10 — none"
+            ],
+            [
+              "6:34",
+              "ἐσπλαγχνίσθη (compassion)",
+              "14:14 — kept",
+              "9:11 — dropped"
+            ],
+            [
+              "8:2",
+              "σπλαγχνίζομαι (compassion)",
+              "15:32 — kept",
+              "no parallel"
+            ],
+            [
+              "9:22",
+              "σπλαγχνισθείς (in the father's plea)",
+              "17:15 — ἐλέησον",
+              "9:38 — dropped"
+            ],
+            [
+              "10:14",
+              "ἠγανάκτησεν (indignant)",
+              "19:14 — none",
+              "18:16 — none"
+            ],
+            [
+              "10:21",
+              "ἠγάπησεν αὐτόν (loved him)",
+              "19:21 — none",
+              "18:22 — none"
+            ],
+            [
+              "10:52",
+              "— (none in Mark)",
+              "20:34 — adds σπλαγχνισθεὶς … ἥψατο",
+              "18:42 — none"
+            ]
           ],
           "basis": "Compiled from the Greek texts."
         },
@@ -486,17 +1535,55 @@
             "claim": "Matthew and Luke read ὀργισθείς in Mark and removed it, as they always remove Jesus' anger.",
             "favours": "anger",
             "pro": [
-              { "text": "“Matthew and Luke have no qualms about describing Jesus as compassionate. But they never describe him as angry … whenever Mark did so, they both rewrite the term out of their stories.”", "ref": "Ehrman 2003", "basis": "reported" },
-              { "text": "If σπλαγχνισθείς were original they “would probably have included it”, since both use the term of Jesus elsewhere (Matt 9:36; Luke 7:13).", "ref": "Marcus 2000, p. 206", "basis": "read" }
+              {
+                "text": "“Matthew and Luke have no qualms about describing Jesus as compassionate. But they never describe him as angry. In fact, whenever one of their sources, Mark, did so, they both independently rewrite the term out of their stories.”",
+                "ref": "Ehrman 2003, p. 126",
+                "basis": "read"
+              },
+              {
+                "text": "If σπλαγχνισθείς were original they “would probably have included it”, since both use the term of Jesus elsewhere (Matt 9:36; Luke 7:13).",
+                "ref": "Marcus 2000, p. 206",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "Luke drops Mark's compassion at 9:11, so his silence here proves nothing.", "ref": "see table", "basis": "read" },
-              { "text": "Both also drop Jesus' love for the rich man (Mark 10:21): they remove warm emotions as well as harsh ones.", "ref": "see table", "basis": "read" },
-              { "text": "Both omit all of verse 43 too, and this pericope has a cluster of other Matthew–Luke agreements against Mark (ἥψατο αὐτοῦ λέγων, εὐθέως). The shared omission is part of a larger pattern.", "ref": "ECM Mark apparatus; Willker", "basis": "read" },
-              { "text": "The argument assumes Matthew and Luke edited Mark independently; if Luke knew Matthew, this is one agreement, not two.", "ref": "Goodacre (ETC comments)", "basis": "read" }
+              {
+                "text": "Luke drops every Markan σπλαγχνίζομαι, so his silence here proves nothing. Ehrman himself notes that Luke recasts 6:34 and lacks 8:2.",
+                "ref": "Johnson 2017, p. 185; Ehrman 2003, p. 125",
+                "basis": "read"
+              },
+              {
+                "text": "Both also drop συλλυπούμενος (grief) at 3:5 and the plea for compassion at 9:22: “why would Matthew and Luke censor sympathy and mercy?”",
+                "ref": "Johnson 2017, p. 185",
+                "basis": "read"
+              },
+              {
+                "text": "Both also drop Jesus' love for the rich man (Mark 10:21): they remove warm emotions as well as harsh ones.",
+                "ref": "see table",
+                "basis": "read"
+              },
+              {
+                "text": "Both omit all of verse 43 too, and this pericope has a cluster of other Matthew–Luke agreements against Mark (ἥψατο αὐτοῦ λέγων, εὐθέως). The shared omission is part of a larger pattern.",
+                "ref": "ECM Mark apparatus; Willker",
+                "basis": "read"
+              },
+              {
+                "text": "The argument assumes Matthew and Luke edited Mark independently; if Luke knew Matthew, this is one agreement, not two.",
+                "ref": "Goodacre (ETC comments)",
+                "basis": "read"
+              },
+              {
+                "text": "The argument refuses one coincidence (that both happened to omit the word) while accepting another (that both, independently, chose omission as their remedy).",
+                "ref": "Williams 2012, pp. 3–4",
+                "basis": "read"
+              }
             ],
             "status": "Weaker than usually stated. Only Matthew's silence carries weight, and Matthew is abbreviating heavily here.",
-            "bearsOn": { "A": "supports", "B": "strains", "C": "strains" }
+            "bearsOn": {
+              "A": "supports",
+              "B": "strains",
+              "C": "strains"
+            }
           },
           {
             "id": "S2",
@@ -504,15 +1591,35 @@
             "claim": "Matthew's two healings of blind men borrow the vocabulary of Mark 1:41–45, including σπλαγχνισθείς.",
             "favours": "compassion",
             "pro": [
-              { "text": "Matt 20:34 adds σπλαγχνισθεὶς … ἥψατο … εὐθέως to a Markan healing that has none of it — the same sequence as Mark 1:41–42.", "ref": "Johnson 2017", "basis": "reported" },
-              { "text": "Its doublet, Matt 9:30–31, has ἐνεβριμήθη, “see that no one knows” and διεφήμισαν — the vocabulary of Mark 1:43–45.", "ref": "from the Greek texts", "basis": "read" }
+              {
+                "text": "Matt 20:34 adds σπλαγχνισθεὶς … ἥψατο … εὐθέως to a Markan healing that has none of it — a sequence “found in no other antecedent Greek literature”, pointing to Matthew's knowledge of σπλαγχνισθείς in Mark 1:41.",
+                "ref": "Johnson 2017, p. 185 n. 11",
+                "basis": "read"
+              },
+              {
+                "text": "Its doublet, Matt 9:30–31, has ἐνεβριμήθη, “see that no one knows” and διεφήμισαν — the vocabulary of Mark 1:43–45. Ehrman too judges Matt 9:30 “dependent on this passage in Mark”.",
+                "ref": "from the Greek texts; Ehrman 2003, p. 133",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "σπλαγχνίζομαι is a favourite of Matthew's in any case (9:36; 18:27), so 20:34 need not depend on Mark 1:41.", "ref": "", "basis": "read" },
-              { "text": "Matthew “consistently keeps Markan ‘compassion’ language”, which makes its absence at 8:3 all the more striking.", "ref": "Head (ETC comments)", "basis": "read" }
+              {
+                "text": "σπλαγχνίζομαι is a favourite of Matthew's in any case (9:36; 18:27), so 20:34 need not depend on Mark 1:41.",
+                "ref": "",
+                "basis": "read"
+              },
+              {
+                "text": "Matthew “consistently keeps Markan ‘compassion’ language”, which makes its absence at 8:3 all the more striking.",
+                "ref": "Head (ETC comments)",
+                "basis": "read"
+              }
             ],
             "status": "Suggestive evidence that Matthew's copy of Mark had σπλαγχνισθείς.",
-            "bearsOn": { "A": "strains", "B": "supports", "C": "supports" }
+            "bearsOn": {
+              "A": "strains",
+              "B": "supports",
+              "C": "supports"
+            }
           }
         ]
       },
@@ -527,17 +1634,50 @@
             "claim": "ἐμβριμησάμενος and ἐξέβαλεν show the scene is angry throughout.",
             "favours": "anger",
             "pro": [
-              { "text": "ἐμβριμάομαι is the snorting of a horse; of people, “to express indignation by an explosive expulsion of breath”. There is no reason to deny the nuance of anger here.", "ref": "Marcus 2000", "basis": "read" },
-              { "text": "ἐξέβαλεν is the word used for casting out demons (1:34, 39).", "ref": "Marcus 2000; Boring 2006", "basis": "read" },
-              { "text": "The harsh words of v. 43 “cohere with the minority reading of v. 41”.", "ref": "Beavis 2011", "basis": "read" }
+              {
+                "text": "ἐμβριμάομαι is the snorting of a horse; of people, “to express indignation by an explosive expulsion of breath”. There is no reason to deny the nuance of anger here.",
+                "ref": "Marcus 2000",
+                "basis": "read"
+              },
+              {
+                "text": "ἐξέβαλεν is the word used for casting out demons (1:34, 39).",
+                "ref": "Marcus 2000; Boring 2006",
+                "basis": "read"
+              },
+              {
+                "text": "The harsh words of v. 43 “cohere with the minority reading of v. 41”.",
+                "ref": "Beavis 2011",
+                "basis": "read"
+              },
+              {
+                "text": "ἐμβριμάομαι means to rebuke or reproach, as at 14:5; and ἐκβάλλω in Mark is used “of some kind of aggressive action” in every instance. It is easier to understand a severe rebuke if Jesus was angry than if he felt sorry for the man.",
+                "ref": "Ehrman 2003, p. 133",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "The story can as well be read as a shift: pity in v. 41, stern dismissal in v. 43.", "ref": "Collins 2007", "basis": "read" },
-              { "text": "ἐκβάλλω is not always violent in Mark (1:12; 5:40).", "ref": "France 2002", "basis": "read" },
-              { "text": "The same harshness is what would lead a copyist to write anger in v. 41 (see “Pulled in from verse 43”).", "ref": "Metzger", "basis": "reported" }
+              {
+                "text": "The story can as well be read as a shift: pity in v. 41, stern dismissal in v. 43.",
+                "ref": "Collins 2007",
+                "basis": "read"
+              },
+              {
+                "text": "ἐκβάλλω is not always violent in Mark (1:12; 5:40).",
+                "ref": "France 2002",
+                "basis": "read"
+              },
+              {
+                "text": "The same harshness is what would lead a copyist to write anger in v. 41 (see “Pulled in from verse 43”).",
+                "ref": "Metzger",
+                "basis": "reported"
+              }
             ],
             "status": "Cuts both ways: coherence for one side, a source of contamination for the other.",
-            "bearsOn": { "A": "supports", "B": "neutral", "C": "neutral" }
+            "bearsOn": {
+              "A": "supports",
+              "B": "neutral",
+              "C": "neutral"
+            }
           },
           {
             "id": "C2",
@@ -545,22 +1685,61 @@
             "claim": "If Jesus is angry, the text does not say why.",
             "favours": "open",
             "options": [
-              { "text": "At the leper's “if you will”, as doubting his willingness", "who": "Ephrem; Ehrman" },
-              { "text": "At the disease and the evil power behind it", "who": "Hooker; France; Boring; Guelich; Lane" },
-              { "text": "At the purity system that excluded the man", "who": "Myers" },
-              { "text": "At being asked to usurp the priest's role of declaring him clean", "who": "Cave, after J. Weiss" },
-              { "text": "At the interruption of his preaching mission", "who": "rejected by Hooker, France, Ehrman" },
-              { "text": "It is the leper who is angry", "who": "Lake" }
+              {
+                "text": "At the leper's “if you will”, as doubting his willingness",
+                "who": "Ephrem; Ehrman"
+              },
+              {
+                "text": "At the disease and the evil power behind it",
+                "who": "Hooker; France; Boring; Guelich; Lane"
+              },
+              {
+                "text": "At the purity system that excluded the man",
+                "who": "Myers"
+              },
+              {
+                "text": "At being asked to usurp the priest's role of declaring him clean",
+                "who": "Cave, after J. Weiss"
+              },
+              {
+                "text": "At the interruption of his preaching mission",
+                "who": "rejected by Hooker, France, Ehrman"
+              },
+              {
+                "text": "It is the leper who is angry",
+                "who": "Lake"
+              }
             ],
             "pro": [
-              { "text": "The lack of an obvious object is precisely what would provoke a correction.", "ref": "France 2002", "basis": "read" }
+              {
+                "text": "The lack of an obvious object is precisely what would provoke a correction.",
+                "ref": "France 2002",
+                "basis": "read"
+              }
             ],
             "contra": [
-              { "text": "A reading that needs six competing explanations may simply be a mistake.", "ref": "Comfort", "basis": "reported" },
-              { "text": "Or the reverse: if explanations come so easily, the reading was never very difficult.", "ref": "Lorenz 2016", "basis": "read" }
+              {
+                "text": "A reading that needs six competing explanations may simply be a mistake.",
+                "ref": "Comfort",
+                "basis": "reported"
+              },
+              {
+                "text": "Or the reverse: if explanations come so easily, the reading was never very difficult.",
+                "ref": "Lorenz 2016",
+                "basis": "read"
+              },
+              {
+                "text": "In no other Markan story is Jesus angry with the person asking for help; he is patient even with the doubting father of 9:22–24, while this leper is sure he can heal.",
+                "ref": "Johnson 2017, p. 187; Williams 2012, p. 11",
+                "basis": "read"
+              }
             ],
             "status": "No agreed answer among those who accept anger.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "neutral" }
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "neutral"
+            }
           },
           {
             "id": "C3",
@@ -568,156 +1747,604 @@
             "claim": "Both emotions are at home in Mark's portrait of Jesus.",
             "favours": "open",
             "pro": [
-              { "text": "Compassion: 6:34; 8:2; 9:22 — NA28's own marginal references at 1:41.", "ref": "Donahue & Harrington 2002", "basis": "read" },
-              { "text": "Anger and indignation: 3:5; 10:14. Mark's Jesus also sighs (7:34; 8:12) and is distressed (14:33).", "ref": "", "basis": "read" }
+              {
+                "text": "Compassion: 6:34; 8:2; 9:22 — NA28's own marginal references at 1:41.",
+                "ref": "Donahue & Harrington 2002",
+                "basis": "read"
+              },
+              {
+                "text": "Anger and indignation: 3:5; 10:14. Mark's Jesus also sighs (7:34; 8:12) and is distressed (14:33).",
+                "ref": "",
+                "basis": "read"
+              }
             ],
             "contra": [],
             "status": "Mark's style does not decide the question.",
-            "bearsOn": { "A": "neutral", "B": "neutral", "C": "neutral" }
+            "bearsOn": {
+              "A": "neutral",
+              "B": "neutral",
+              "C": "neutral"
+            }
           }
         ]
       }
     ]
   },
-
   "positions": {
     "intro": "Critical editions mostly print compassion; commentators mostly argue for anger; the specialist text-critical articles of 2012–2018 mostly defend compassion.",
     "groups": [
       {
         "title": "Greek editions",
         "items": [
-          { "name": "Westcott–Hort", "year": 1881, "side": "compassion", "note": "ὀργισθείς in the margin", "basis": "reported" },
-          { "name": "NEB Greek text (Tasker)", "year": 1964, "side": "anger", "basis": "reported" },
-          { "name": "UBS3", "year": 1975, "side": "compassion", "note": "rated {D}", "basis": "reported" },
-          { "name": "UBS4 / UBS5", "year": 1993, "side": "compassion", "note": "rated {B}", "basis": "reported" },
-          { "name": "Robinson–Pierpont (Byzantine)", "year": 2005, "side": "compassion", "basis": "reported" },
-          { "name": "SBLGNT (Holmes)", "year": 2010, "side": "anger", "basis": "read" },
-          { "name": "NA28", "year": 2012, "side": "compassion", "basis": "read" },
-          { "name": "Tyndale House GNT", "year": 2017, "side": "compassion", "basis": "reported" },
-          { "name": "Editio Critica Maior, Mark", "year": 2021, "side": "compassion", "note": "no split guiding line", "basis": "read" }
+          {
+            "name": "Westcott–Hort",
+            "year": 1881,
+            "side": "compassion",
+            "note": "ὀργισθείς in the margin",
+            "basis": "reported"
+          },
+          {
+            "name": "NEB Greek text (Tasker)",
+            "year": 1964,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "UBS3",
+            "year": 1975,
+            "side": "compassion",
+            "note": "rated {D}",
+            "basis": "reported"
+          },
+          {
+            "name": "UBS4 / UBS5",
+            "year": 1993,
+            "side": "compassion",
+            "note": "rated {B}",
+            "basis": "reported"
+          },
+          {
+            "name": "Robinson–Pierpont (Byzantine)",
+            "year": 2005,
+            "side": "compassion",
+            "basis": "reported"
+          },
+          {
+            "name": "SBLGNT (Holmes)",
+            "year": 2010,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "NA28",
+            "year": 2012,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Tyndale House GNT",
+            "year": 2017,
+            "side": "compassion",
+            "basis": "reported"
+          },
+          {
+            "name": "Editio Critica Maior, Mark",
+            "year": 2021,
+            "side": "compassion",
+            "note": "no split guiding line",
+            "basis": "read"
+          }
         ]
       },
       {
         "title": "English translations",
         "items": [
-          { "name": "KJV", "year": 1611, "side": "compassion", "note": "“moved with compassion”", "basis": "read" },
-          { "name": "NEB", "year": 1961, "side": "anger", "note": "“in warm indignation”", "basis": "reported" },
-          { "name": "REB", "year": 1989, "side": "anger", "note": "“moved to anger”", "basis": "reported" },
-          { "name": "NRSV", "year": 1989, "side": "compassion", "note": "“moved with pity”", "basis": "read" },
-          { "name": "ESV", "year": 2001, "side": "compassion", "note": "“moved with pity”", "basis": "read" },
-          { "name": "TNIV / NIV 2011", "year": 2011, "side": "anger", "note": "“Jesus was indignant”", "basis": "read" },
-          { "name": "CEB", "year": 2011, "side": "anger", "note": "“Incensed”", "basis": "read" },
-          { "name": "LEB", "year": 2012, "side": "anger", "note": "“becoming angry”", "basis": "read" },
-          { "name": "NET (current)", "year": 2019, "side": "anger", "note": "“Moved with indignation”; the first edition read compassion", "basis": "read" }
+          {
+            "name": "KJV",
+            "year": 1611,
+            "side": "compassion",
+            "note": "“moved with compassion”",
+            "basis": "read"
+          },
+          {
+            "name": "NEB",
+            "year": 1961,
+            "side": "anger",
+            "note": "“in warm indignation”",
+            "basis": "reported"
+          },
+          {
+            "name": "REB",
+            "year": 1989,
+            "side": "anger",
+            "note": "“moved to anger”",
+            "basis": "reported"
+          },
+          {
+            "name": "NRSV",
+            "year": 1989,
+            "side": "compassion",
+            "note": "“moved with pity”",
+            "basis": "read"
+          },
+          {
+            "name": "ESV",
+            "year": 2001,
+            "side": "compassion",
+            "note": "“moved with pity”",
+            "basis": "read"
+          },
+          {
+            "name": "TNIV / NIV 2011",
+            "year": 2011,
+            "side": "anger",
+            "note": "“Jesus was indignant”",
+            "basis": "read"
+          },
+          {
+            "name": "CEB",
+            "year": 2011,
+            "side": "anger",
+            "note": "“Incensed”",
+            "basis": "read"
+          },
+          {
+            "name": "LEB",
+            "year": 2012,
+            "side": "anger",
+            "note": "“becoming angry”",
+            "basis": "read"
+          },
+          {
+            "name": "NET (current)",
+            "year": 2019,
+            "side": "anger",
+            "note": "“Moved with indignation”; the first edition read compassion",
+            "basis": "read"
+          }
         ]
       },
       {
         "title": "Commentaries on Mark",
         "items": [
-          { "name": "V. Taylor", "year": 1952, "side": "anger", "basis": "reported" },
-          { "name": "Haenchen", "year": 1966, "side": "compassion", "basis": "reported" },
-          { "name": "Lane (NICNT)", "year": 1974, "side": "anger", "basis": "reported" },
-          { "name": "Guelich (WBC)", "year": 1989, "side": "anger", "basis": "reported" },
-          { "name": "Hooker (BNTC)", "year": 1991, "side": "anger", "basis": "read" },
-          { "name": "Marcus (Anchor)", "year": 2000, "side": "anger", "basis": "read" },
-          { "name": "France (NIGTC)", "year": 2002, "side": "anger", "basis": "read" },
-          { "name": "Edwards (Pillar)", "year": 2002, "side": "anger", "basis": "reported" },
-          { "name": "Donahue & Harrington (Sacra Pagina)", "year": 2002, "side": "compassion", "basis": "read" },
-          { "name": "Boring (NTL)", "year": 2006, "side": "anger", "basis": "read" },
-          { "name": "Collins (Hermeneia)", "year": 2007, "side": "compassion", "basis": "read" },
-          { "name": "Stein (BECNT)", "year": 2008, "side": "compassion", "basis": "reported" },
-          { "name": "Beavis (Paideia)", "year": 2011, "side": "open", "note": "presents both; notes v. 43 coheres with anger", "basis": "read" }
+          {
+            "name": "V. Taylor",
+            "year": 1952,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Haenchen",
+            "year": 1966,
+            "side": "compassion",
+            "basis": "reported"
+          },
+          {
+            "name": "Lane (NICNT)",
+            "year": 1974,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Guelich (WBC)",
+            "year": 1989,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Hooker (BNTC)",
+            "year": 1991,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "Marcus (Anchor)",
+            "year": 2000,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "France (NIGTC)",
+            "year": 2002,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "Edwards (Pillar)",
+            "year": 2002,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Donahue & Harrington (Sacra Pagina)",
+            "year": 2002,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Boring (NTL)",
+            "year": 2006,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "Collins (Hermeneia)",
+            "year": 2007,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Stein (BECNT)",
+            "year": 2008,
+            "side": "compassion",
+            "basis": "reported"
+          },
+          {
+            "name": "Beavis (Paideia)",
+            "year": 2011,
+            "side": "open",
+            "note": "presents both; notes v. 43 coheres with anger",
+            "basis": "read"
+          }
         ]
       },
       {
         "title": "Specialist studies",
         "items": [
-          { "name": "Harris", "year": 1891, "side": "compassion", "note": "Latin origin", "basis": "reported" },
-          { "name": "Lake", "year": 1923, "side": "anger", "note": "but of the leper", "basis": "abstract" },
-          { "name": "Turner", "year": 1927, "side": "anger", "basis": "reported" },
-          { "name": "Cave", "year": 1979, "side": "anger", "basis": "reported" },
-          { "name": "Proctor", "year": 1999, "side": "anger", "basis": "reported" },
-          { "name": "Ehrman", "year": 2003, "side": "anger", "basis": "reported" },
-          { "name": "Greeven & Güting", "year": 2005, "side": "anger", "basis": "reported" },
-          { "name": "Cate", "year": 2011, "side": "compassion", "note": "corrects the 1358 citation", "basis": "reported" },
-          { "name": "Williams", "year": 2012, "side": "compassion", "basis": "abstract" },
-          { "name": "Baarda", "year": 2012, "side": "open", "note": "on Ephrem and the Diatessaron", "basis": "reported" },
-          { "name": "Haelewyck", "year": 2013, "side": "anger", "basis": "abstract" },
-          { "name": "Lorenz", "year": 2016, "side": "compassion", "basis": "read" },
-          { "name": "Johnson", "year": 2017, "side": "compassion", "basis": "abstract" },
-          { "name": "Kristianto", "year": 2018, "side": "compassion", "basis": "reported" },
-          { "name": "Bąk", "year": 2018, "side": "anger", "basis": "abstract" },
-          { "name": "D. G. K. Taylor", "year": 2020, "side": "open", "note": "publishes the Old Syriac evidence", "basis": "read" },
-          { "name": "Lorenz (monograph)", "year": 2021, "side": "compassion", "basis": "read" },
-          { "name": "Bruehler", "year": 2025, "side": "anger", "basis": "abstract" }
+          {
+            "name": "Harris",
+            "year": 1891,
+            "side": "compassion",
+            "note": "Latin origin",
+            "basis": "reported"
+          },
+          {
+            "name": "Lake",
+            "year": 1923,
+            "side": "anger",
+            "note": "but of the leper",
+            "basis": "abstract"
+          },
+          {
+            "name": "Turner",
+            "year": 1927,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Cave",
+            "year": 1979,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Proctor",
+            "year": 1999,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Ehrman",
+            "year": 2003,
+            "side": "anger",
+            "basis": "read"
+          },
+          {
+            "name": "Greeven & Güting",
+            "year": 2005,
+            "side": "anger",
+            "basis": "reported"
+          },
+          {
+            "name": "Cate",
+            "year": 2011,
+            "side": "compassion",
+            "note": "corrects the 1358 citation",
+            "basis": "reported"
+          },
+          {
+            "name": "Williams",
+            "year": 2012,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Baarda",
+            "year": 2012,
+            "side": "open",
+            "note": "on Ephrem and the Diatessaron",
+            "basis": "reported"
+          },
+          {
+            "name": "Haelewyck",
+            "year": 2013,
+            "side": "anger",
+            "basis": "abstract"
+          },
+          {
+            "name": "Lorenz",
+            "year": 2016,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Johnson",
+            "year": 2017,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Kristianto",
+            "year": 2018,
+            "side": "compassion",
+            "basis": "reported"
+          },
+          {
+            "name": "Bąk",
+            "year": 2018,
+            "side": "anger",
+            "basis": "abstract"
+          },
+          {
+            "name": "D. G. K. Taylor",
+            "year": 2020,
+            "side": "open",
+            "note": "publishes the Old Syriac evidence",
+            "basis": "read"
+          },
+          {
+            "name": "Lorenz (monograph)",
+            "year": 2021,
+            "side": "compassion",
+            "basis": "read"
+          },
+          {
+            "name": "Bruehler",
+            "year": 2025,
+            "side": "anger",
+            "basis": "abstract"
+          }
         ]
       }
     ]
   },
-
   "corrections": {
     "title": "Claims to retire",
     "items": [
-      { "claim": "“Minuscule 1358 reads ὀργισθείς.”", "fact": "It omits the word. The citation is an error in Text und Textwert (1998), corrected by Cate in 2011." },
-      { "claim": "“Anger is supported only in Latin-speaking areas.”", "fact": "Ephrem and the Old Syriac palimpsest (published 2020) attest it in Syria." },
-      { "claim": "“Ephrem read anger instead of compassion.”", "fact": "His text, like the palimpsest, had both." },
-      { "claim": "“Four or five independent witnesses support anger.”", "fact": "The Latin manuscripts are one text-type; Bezae's Greek may depend on it." },
-      { "claim": "“The UBS committee simply followed the majority.”", "fact": "Metzger cites the diversity and character of the evidence, not its quantity." },
-      { "claim": "“The UBS rating is {D}.”", "fact": "That was UBS3. It has been {B} since UBS4." },
-      { "claim": "“Many manuscripts read compassion” (NIV footnote).", "fact": "All Greek manuscripts but one." },
-      { "claim": "“iratus came from autem misertus by a copying slip.”", "fact": "The manuscripts with iratus read Et iratus." },
-      { "claim": "“Lake argued for an angry Jesus.”", "fact": "He made the leper the subject of ὀργισθείς." }
+      {
+        "claim": "“Minuscule 1358 reads ὀργισθείς.”",
+        "fact": "It omits the word. The citation is an error in Text und Textwert (1998), corrected by Cate in 2011."
+      },
+      {
+        "claim": "“Anger is supported only in Latin-speaking areas.”",
+        "fact": "Ephrem and the Old Syriac palimpsest (published 2020) attest it in Syria. The one known bridge between the two worlds is Tatian."
+      },
+      {
+        "claim": "“Ephrem read anger instead of compassion.”",
+        "fact": "His text, like the palimpsest, had both."
+      },
+      {
+        "claim": "“Ephrem never actually quotes ‘anger’ from his gospel text.”",
+        "fact": "He cites mpār, the very word that stands in the Old Syriac palimpsest at this verse (Taylor 2020)."
+      },
+      {
+        "claim": "“Four or five independent witnesses support anger.”",
+        "fact": "The Latin manuscripts are one text-type; Bezae's Greek may depend on it."
+      },
+      {
+        "claim": "“The UBS committee simply followed the majority.”",
+        "fact": "Metzger cites the diversity and character of the evidence, not its quantity."
+      },
+      {
+        "claim": "“The UBS rating is {D}.”",
+        "fact": "That was UBS3. It has been {B} since UBS4."
+      },
+      {
+        "claim": "“Many manuscripts read compassion” (NIV footnote).",
+        "fact": "All Greek manuscripts but one."
+      },
+      {
+        "claim": "“iratus came from autem misertus by a copying slip.”",
+        "fact": "The manuscripts with iratus read Et iratus. (Johnson's different proposal, miseratus → iratus by loss of letters, is not affected.)"
+      },
+      {
+        "claim": "“Lake argued for an angry Jesus.”",
+        "fact": "He made the leper the subject of ὀργισθείς."
+      }
     ]
   },
-
   "assessment": {
     "title": "One reading of the evidence",
     "label": "A provisional judgment, offered for discussion",
     "paragraphs": [
-      "“Only in Bezae” is the wrong frame. Bezae itself is weak evidence: its Greek text at this verse is late and mixed. But the reading it carries is old. Latin Italy and Syriac-speaking Mesopotamia both know it by the later fourth century, and the cheapest link between them is a second-century Greek text.",
-      "That makes the real question a general one: how often does a single early “Western” strand preserve the original against everything else? The internal arguments do not settle it. The harder-reading argument is real, but the synoptic argument is weaker than it looks, and the Syriac form is a double reading that presupposes compassion beside it.",
+      "“Only in Bezae” is the wrong frame. Bezae itself is weak evidence: its Greek text at this verse is late and mixed. But the reading it carries is old. Latin Italy and Syriac-speaking Mesopotamia both know it by the later fourth century, and the cheapest link between them is a second-century Greek text, perhaps carried east by Tatian.",
+      "That makes the real question a general one: how often does a single early “Western” strand preserve the original against everything else? The internal arguments do not settle it. The harder-reading argument is real, but its premise is contested; the synoptic argument is weaker than it looks; and the Syriac form is a double reading that presupposes compassion beside it.",
       "On balance σπλαγχνισθείς is the more probable original — roughly two to one — with ὀργισθείς an early and respectable rival, not a scribal curiosity."
     ],
     "openQuestions": [
-      "How does the Old Syriac palimpsest render verse 43? If its “being angered” is a displaced ἐμβριμησάμενος, the Syriac ceases to be evidence for ὀργισθείς.",
+      "How does the Old Syriac palimpsest render verse 43? If its “being angered” is a displaced ἐμβριμησάμενος, the Syriac ceases to be evidence for ὀργισθείς. Ephrem's use of both the rebuke word and the anger word tells against this, but the text itself is unpublished.",
       "What does Bruehler (2025) make of the Syriac evidence and of Lorenz's monograph?",
       "What do the coherence data for this variation unit in the ECM of Mark show?"
     ]
   },
-
   "bibliography": [
-    { "key": "Baarda 2012", "cite": "Tjitze Baarda, “Mk 1:41: ὀργισθείς. A Reading Attested for Mar Ephraem, the Diatessaron, or Tatian,” Zeitschrift für die neutestamentliche Wissenschaft 103 (2012): 291–295.", "basis": "reported" },
-    { "key": "Bąk 2018", "cite": "Tomasz Bąk, article on Mark 1:41, Verbum Vitae 34 (2018): 215–247.", "url": "https://czasopisma.kul.pl/vv/article/view/1909", "basis": "abstract" },
-    { "key": "Beavis 2011", "cite": "Mary Ann Beavis, Mark. Paideia. Grand Rapids: Baker Academic, 2011.", "basis": "read" },
-    { "key": "Boring 2006", "cite": "M. Eugene Boring, Mark: A Commentary. New Testament Library. Louisville: Westminster John Knox, 2006.", "basis": "read" },
-    { "key": "Bruehler 2025", "cite": "Bart B. Bruehler, “The Presence, Nature, Cause, and Result of Jesus's Anger in Mark 1:40–45,” Harvard Theological Review 118.4 (2025): 640–664.", "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/presence-nature-cause-and-result-of-jesuss-anger-in-mark-14045/E917B884E0E93A7CA7BEEAA8AC3EA22E", "basis": "abstract" },
-    { "key": "Cate 2011", "cite": "Jeff Cate, “The Unemotional Jesus in Manuscript 1358,” The Folio: Bulletin of the Ancient Biblical Manuscript Center 28.2 (2011): 1.", "basis": "reported" },
-    { "key": "Cave 1979", "cite": "C. H. Cave, “The Leper: Mark 1.40–45,” New Testament Studies 25 (1978/79): 245–250.", "basis": "reported" },
-    { "key": "Collins 2007", "cite": "Adela Yarbro Collins, Mark: A Commentary. Hermeneia. Minneapolis: Fortress, 2007.", "basis": "read" },
-    { "key": "Donahue & Harrington 2002", "cite": "John R. Donahue and Daniel J. Harrington, The Gospel of Mark. Sacra Pagina 2. Collegeville: Liturgical Press, 2002.", "basis": "read" },
-    { "key": "ECM Mark", "cite": "Novum Testamentum Graecum: Editio Critica Maior I/2, Das Markusevangelium, ed. H. Strutwolf et al. Stuttgart: Deutsche Bibelgesellschaft, 2021. Apparatus consulted through the INTF New Testament Virtual Manuscript Room.", "url": "https://ntvmr.uni-muenster.de/community/vmr/api/variant/apparatus/get/?indexContent=Mark.1.41&format=xml", "basis": "read" },
-    { "key": "Ehrman 2003", "cite": "Bart D. Ehrman, “A Leper in the Hands of an Angry Jesus,” in New Testament Greek and Exegesis: Essays in Honor of Gerald F. Hawthorne, ed. A. M. Donaldson and T. B. Sailors (Grand Rapids: Eerdmans, 2003), 77–98; repr. in Studies in the Textual Criticism of the New Testament (NTTS 33; Leiden: Brill, 2006), 120–141.", "basis": "reported" },
-    { "key": "Elliott 1981", "cite": "J. K. Elliott, essay in New Testament Textual Criticism: Its Significance for Exegesis. Essays in Honour of Bruce M. Metzger (Oxford: Clarendon, 1981), at 53.", "basis": "reported" },
-    { "key": "France 2002", "cite": "R. T. France, The Gospel of Mark. New International Greek Testament Commentary. Grand Rapids: Eerdmans, 2002, 115–118.", "basis": "read" },
-    { "key": "Greeven & Güting 2005", "cite": "Heinrich Greeven and Eberhard Güting, Textkritik des Markusevangeliums. Münster: LIT, 2005, 120–122.", "basis": "reported" },
-    { "key": "Güting 1996", "cite": "Eberhard Güting, “Weakly Attested Original Readings of the Manuscript D 05 in Mark,” in Codex Bezae: Studies from the Lunel Colloquium, June 1994, ed. D. C. Parker and C.-B. Amphoux (Leiden: Brill, 1996).", "basis": "reported" },
-    { "key": "Haelewyck 2013", "cite": "Jean-Claude Haelewyck, “The Healing of a Leper (Mark 1,40-45): A Textual Commentary,” Ephemerides Theologicae Lovanienses 89.1 (2013): 15–36.", "url": "https://dial.uclouvain.be/pr/boreal/object/boreal:136365", "basis": "abstract" },
-    { "key": "Hooker 1991", "cite": "Morna D. Hooker, The Gospel According to Saint Mark. Black's New Testament Commentaries. London: A & C Black, 1991, 79–80.", "basis": "read" },
-    { "key": "INTF transcription of 05", "cite": "Transcription of Codex Bezae (GA 05), Institut für Neutestamentliche Textforschung, New Testament Virtual Manuscript Room. Images of the codex: Cambridge University Digital Library, MS Nn.2.41.", "url": "https://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041", "basis": "read" },
-    { "key": "Johnson 2017", "cite": "Nathan C. Johnson, “Anger Issues: Mark 1.41 in Ephrem the Syrian, the Old Latin Gospels and Codex Bezae,” New Testament Studies 63.2 (2017): 183–202.", "url": "https://www.cambridge.org/core/product/2000B008216E68452F69AF345A0BFD21", "basis": "abstract" },
-    { "key": "Kristianto 2018", "cite": "S. Kristianto, article on Mark 1:41 and pre-genealogical coherence, Veritas 17 (2018): 15–26.", "basis": "reported" },
-    { "key": "Lake 1923", "cite": "Kirsopp Lake, “ΕΜΒΡΙΜΗΣΑΜΕΝΟΣ and ΟΡΓΙΣΘΕΙΣ, Mark 1,40–43,” Harvard Theological Review 16 (1923): 197–198.", "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/and-mark-1-4043/99129AB258575DC6DAC0B98F3B252F97", "basis": "abstract" },
-    { "key": "Lorenz 2016", "cite": "Peter E. Lorenz, “Counting Witnesses for the Angry Jesus in Mark 1:41: Interdependence and Insularity in the Latin Tradition,” Tyndale Bulletin 67.2 (2016): 183–216.", "url": "https://tyndalebulletin.org/api/v1/articles/29416-counting-witnesses-for-the-angry-jesus-in-mark-1-41-interdependence-and-insularity-in-the-latin-tradition.pdf", "basis": "read" },
-    { "key": "Lorenz 2021", "cite": "Peter E. Lorenz, A History of Codex Bezae's Text in the Gospel of Mark. Arbeiten zur neutestamentlichen Textforschung 53. Berlin: De Gruyter, 2021.", "basis": "read" },
-    { "key": "Marcus 2000", "cite": "Joel Marcus, Mark 1–8. Anchor Bible 27. New York: Doubleday, 2000, 205–209.", "basis": "read" },
-    { "key": "Metzger", "cite": "Bruce M. Metzger, A Textual Commentary on the Greek New Testament. 1st ed. 1971, 76–77; 2nd ed. Stuttgart: Deutsche Bibelgesellschaft, 1994.", "basis": "reported" },
-    { "key": "NA28", "cite": "Novum Testamentum Graece, 28th revised edition, ed. B. and K. Aland et al. Stuttgart: Deutsche Bibelgesellschaft, 2012, 106–107.", "basis": "read" },
-    { "key": "Proctor 1999", "cite": "Mark A. Proctor, “The ‘Western’ Text of Mark 1:41: A Case for the Angry Jesus.” Ph.D. diss., Baylor University, 1999.", "basis": "reported" },
-    { "key": "Snapp 2016", "cite": "James Snapp Jr., “Mark 1:41 – Why the NIV Is Wrong,” The Text of the Gospels (blog), March 2016.", "url": "https://www.thetextofthegospels.com/2016/03/mark-141-why-niv-is-wrong.html", "basis": "read" },
-    { "key": "Taylor 2020", "cite": "David G. K. Taylor, “New Developments in the Textual Study of the Old Syriac Gospels,” in At One Remove: The Text of the New Testament in Early Translations and Quotations, ed. H. A. G. Houghton and P. Montoro (Piscataway: Gorgias, 2020), 1–42. Author's manuscript consulted.", "url": "https://ora.ox.ac.uk/objects/uuid:a381b5f0-1437-495e-a050-15d4418f9066/files/sw6634633k", "basis": "read" },
-    { "key": "Turner 1927", "cite": "C. H. Turner, “A Textual Commentary on Mark 1,” Journal of Theological Studies 28 (1927): 145–158.", "basis": "reported" },
-    { "key": "Williams 2007", "cite": "Peter J. Williams, “Mark 1:41,” Evangelical Textual Criticism (blog), January 2007, with comments by P. Head, M. Robinson and others.", "url": "https://evangelicaltextualcriticism.blogspot.com/2007/01/mark-141.html", "basis": "read" },
-    { "key": "Williams 2012", "cite": "Peter J. Williams, “An Examination of Ehrman's Case for ὀργισθείς in Mark 1:41,” Novum Testamentum 54 (2012): 1–12. Discussion thread with M. Goodacre, J. Snapp and others on Evangelical Textual Criticism.", "url": "https://evangelicaltextualcriticism.blogspot.com/2012/02/mark-141-and-ehrman.html", "basis": "abstract" },
-    { "key": "Willker", "cite": "Wieland Willker, A Textual Commentary on the Greek Gospels, vol. 2: Mark (online).", "url": "http://www.willker.de/wie/TCG/TC-Mark.pdf", "basis": "read" }
+    {
+      "key": "Baarda 2012",
+      "cite": "Tjitze Baarda, “Mk 1:41: ὀργισθείς. A Reading Attested for Mar Ephraem, the Diatessaron, or Tatian,” Zeitschrift für die neutestamentliche Wissenschaft 103 (2012): 291–295.",
+      "basis": "reported"
+    },
+    {
+      "key": "Bąk 2018",
+      "cite": "Tomasz Bąk, article on Mark 1:41, Verbum Vitae 34 (2018): 215–247.",
+      "url": "https://czasopisma.kul.pl/vv/article/view/1909",
+      "basis": "abstract"
+    },
+    {
+      "key": "Beavis 2011",
+      "cite": "Mary Ann Beavis, Mark. Paideia. Grand Rapids: Baker Academic, 2011.",
+      "basis": "read"
+    },
+    {
+      "key": "Boring 2006",
+      "cite": "M. Eugene Boring, Mark: A Commentary. New Testament Library. Louisville: Westminster John Knox, 2006.",
+      "basis": "read"
+    },
+    {
+      "key": "Bruehler 2025",
+      "cite": "Bart B. Bruehler, “The Presence, Nature, Cause, and Result of Jesus's Anger in Mark 1:40–45,” Harvard Theological Review 118.4 (2025): 640–664.",
+      "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/presence-nature-cause-and-result-of-jesuss-anger-in-mark-14045/E917B884E0E93A7CA7BEEAA8AC3EA22E",
+      "basis": "abstract"
+    },
+    {
+      "key": "Cate 2011",
+      "cite": "Jeff Cate, “The Unemotional Jesus in Manuscript 1358,” The Folio: Bulletin of the Ancient Biblical Manuscript Center 28.2 (2011): 1.",
+      "basis": "reported"
+    },
+    {
+      "key": "Cave 1979",
+      "cite": "C. H. Cave, “The Leper: Mark 1.40–45,” New Testament Studies 25 (1978/79): 245–250.",
+      "basis": "reported"
+    },
+    {
+      "key": "Collins 2007",
+      "cite": "Adela Yarbro Collins, Mark: A Commentary. Hermeneia. Minneapolis: Fortress, 2007.",
+      "basis": "read"
+    },
+    {
+      "key": "Donahue & Harrington 2002",
+      "cite": "John R. Donahue and Daniel J. Harrington, The Gospel of Mark. Sacra Pagina 2. Collegeville: Liturgical Press, 2002.",
+      "basis": "read"
+    },
+    {
+      "key": "ECM Mark",
+      "cite": "Novum Testamentum Graecum: Editio Critica Maior I/2, Das Markusevangelium, ed. H. Strutwolf et al. Stuttgart: Deutsche Bibelgesellschaft, 2021. Apparatus consulted through the INTF New Testament Virtual Manuscript Room.",
+      "url": "https://ntvmr.uni-muenster.de/community/vmr/api/variant/apparatus/get/?indexContent=Mark.1.41&format=xml",
+      "basis": "read"
+    },
+    {
+      "key": "Ehrman 2003",
+      "cite": "Bart D. Ehrman, “A Leper in the Hands of an Angry Jesus,” in New Testament Greek and Exegesis: Essays in Honor of Gerald F. Hawthorne, ed. A. M. Donaldson and T. B. Sailors (Grand Rapids: Eerdmans, 2003), 77–98; repr. in Studies in the Textual Criticism of the New Testament (NTTS 33; Leiden: Brill, 2006), 120–141. Page references here are to the 2006 reprint.",
+      "basis": "read"
+    },
+    {
+      "key": "Elliott 1981",
+      "cite": "J. K. Elliott, essay in New Testament Textual Criticism: Its Significance for Exegesis. Essays in Honour of Bruce M. Metzger (Oxford: Clarendon, 1981), at 53.",
+      "basis": "reported"
+    },
+    {
+      "key": "France 2002",
+      "cite": "R. T. France, The Gospel of Mark. New International Greek Testament Commentary. Grand Rapids: Eerdmans, 2002, 115–118.",
+      "basis": "read"
+    },
+    {
+      "key": "Greeven & Güting 2005",
+      "cite": "Heinrich Greeven and Eberhard Güting, Textkritik des Markusevangeliums. Münster: LIT, 2005, 120–122.",
+      "basis": "reported"
+    },
+    {
+      "key": "Güting 1996",
+      "cite": "Eberhard Güting, “Weakly Attested Original Readings of the Manuscript D 05 in Mark,” in Codex Bezae: Studies from the Lunel Colloquium, June 1994, ed. D. C. Parker and C.-B. Amphoux (Leiden: Brill, 1996).",
+      "basis": "reported"
+    },
+    {
+      "key": "Haelewyck 2013",
+      "cite": "Jean-Claude Haelewyck, “The Healing of a Leper (Mark 1,40-45): A Textual Commentary,” Ephemerides Theologicae Lovanienses 89.1 (2013): 15–36.",
+      "url": "https://dial.uclouvain.be/pr/boreal/object/boreal:136365",
+      "basis": "abstract"
+    },
+    {
+      "key": "Hooker 1991",
+      "cite": "Morna D. Hooker, The Gospel According to Saint Mark. Black's New Testament Commentaries. London: A & C Black, 1991, 79–80.",
+      "basis": "read"
+    },
+    {
+      "key": "INTF transcription of 05",
+      "cite": "Transcription of Codex Bezae (GA 05), Institut für Neutestamentliche Textforschung, New Testament Virtual Manuscript Room. Images of the codex: Cambridge University Digital Library, MS Nn.2.41.",
+      "url": "https://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041",
+      "basis": "read"
+    },
+    {
+      "key": "Johnson 2017",
+      "cite": "Nathan C. Johnson, “Anger Issues: Mark 1.41 in Ephrem the Syrian, the Old Latin Gospels and Codex Bezae,” New Testament Studies 63.2 (2017): 183–202.",
+      "url": "https://www.cambridge.org/core/product/2000B008216E68452F69AF345A0BFD21",
+      "basis": "read"
+    },
+    {
+      "key": "Kristianto 2018",
+      "cite": "S. Kristianto, article on Mark 1:41 and pre-genealogical coherence, Veritas 17 (2018): 15–26.",
+      "basis": "reported"
+    },
+    {
+      "key": "Lake 1923",
+      "cite": "Kirsopp Lake, “ΕΜΒΡΙΜΗΣΑΜΕΝΟΣ and ΟΡΓΙΣΘΕΙΣ, Mark 1,40–43,” Harvard Theological Review 16 (1923): 197–198.",
+      "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/and-mark-1-4043/99129AB258575DC6DAC0B98F3B252F97",
+      "basis": "abstract"
+    },
+    {
+      "key": "Lorenz 2016",
+      "cite": "Peter E. Lorenz, “Counting Witnesses for the Angry Jesus in Mark 1:41: Interdependence and Insularity in the Latin Tradition,” Tyndale Bulletin 67.2 (2016): 183–216.",
+      "url": "https://tyndalebulletin.org/api/v1/articles/29416-counting-witnesses-for-the-angry-jesus-in-mark-1-41-interdependence-and-insularity-in-the-latin-tradition.pdf",
+      "basis": "read"
+    },
+    {
+      "key": "Lorenz 2021",
+      "cite": "Peter E. Lorenz, A History of Codex Bezae's Text in the Gospel of Mark. Arbeiten zur neutestamentlichen Textforschung 53. Berlin: De Gruyter, 2021.",
+      "basis": "read"
+    },
+    {
+      "key": "Marcus 2000",
+      "cite": "Joel Marcus, Mark 1–8. Anchor Bible 27. New York: Doubleday, 2000, 205–209.",
+      "basis": "read"
+    },
+    {
+      "key": "Metzger",
+      "cite": "Bruce M. Metzger, A Textual Commentary on the Greek New Testament. 1st ed. 1971, 76–77; 2nd ed. Stuttgart: Deutsche Bibelgesellschaft, 1994.",
+      "basis": "reported"
+    },
+    {
+      "key": "NA28",
+      "cite": "Novum Testamentum Graece, 28th revised edition, ed. B. and K. Aland et al. Stuttgart: Deutsche Bibelgesellschaft, 2012, 106–107.",
+      "basis": "read"
+    },
+    {
+      "key": "Proctor 1999",
+      "cite": "Mark A. Proctor, “The ‘Western’ Text of Mark 1:41: A Case for the Angry Jesus.” Ph.D. diss., Baylor University, 1999.",
+      "basis": "reported"
+    },
+    {
+      "key": "Snapp 2016",
+      "cite": "James Snapp Jr., “Mark 1:41 – Why the NIV Is Wrong,” The Text of the Gospels (blog), March 2016.",
+      "url": "https://www.thetextofthegospels.com/2016/03/mark-141-why-niv-is-wrong.html",
+      "basis": "read"
+    },
+    {
+      "key": "Taylor 2020",
+      "cite": "David G. K. Taylor, “New Developments in the Textual Study of the Old Syriac Gospels,” in At One Remove: The Text of the New Testament in Early Translations and Quotations, ed. H. A. G. Houghton and P. Montoro (Piscataway: Gorgias, 2020), 1–42. Author's manuscript consulted.",
+      "url": "https://ora.ox.ac.uk/objects/uuid:a381b5f0-1437-495e-a050-15d4418f9066/files/sw6634633k",
+      "basis": "read"
+    },
+    {
+      "key": "Turner 1927",
+      "cite": "C. H. Turner, “A Textual Commentary on Mark 1,” Journal of Theological Studies 28 (1927): 145–158.",
+      "basis": "reported"
+    },
+    {
+      "key": "Williams 2007",
+      "cite": "Peter J. Williams, “Mark 1:41,” Evangelical Textual Criticism (blog), January 2007, with comments by P. Head, M. Robinson and others.",
+      "url": "https://evangelicaltextualcriticism.blogspot.com/2007/01/mark-141.html",
+      "basis": "read"
+    },
+    {
+      "key": "Williams 2012",
+      "cite": "Peter J. Williams, “An Examination of Ehrman's Case for ὀργισθείς in Mark 1:41,” Novum Testamentum 54 (2012): 1–12. Discussion thread with M. Goodacre, J. Snapp and others on Evangelical Textual Criticism.",
+      "url": "https://evangelicaltextualcriticism.blogspot.com/2012/02/mark-141-and-ehrman.html",
+      "basis": "read"
+    },
+    {
+      "key": "Willker",
+      "cite": "Wieland Willker, A Textual Commentary on the Greek Gospels, vol. 2: Mark (online).",
+      "url": "http://www.willker.de/wie/TCG/TC-Mark.pdf",
+      "basis": "read"
+    }
   ]
 }
