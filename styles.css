@@ -389,6 +389,22 @@ h4 { font-family: var(--sans); font-size: .72rem; letter-spacing: .07em; text-tr
 .assess ol { padding-left: 1.3rem; }
 .assess li { margin-bottom: .5rem; }
 
+.assess-verdict { font-family: var(--serif, inherit); font-size: 1.35rem !important; line-height: 1.45; }
+.assess-odds { color: var(--muted); font-size: .95rem !important; margin-top: .5rem; }
+.assess-steps { list-style: none; padding: 0 !important; margin: 1.8rem 0 .5rem; }
+.assess-steps li { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; padding: .7rem 0 .7rem 1rem; border-left: 4px solid var(--rule); margin: 0 !important; }
+.assess-steps li.r-anger { border-left-color: var(--anger); }
+.assess-steps li.r-compassion { border-left-color: var(--comp); }
+.assess-steps li.r-both { border-image: linear-gradient(var(--anger) 50%, var(--comp) 50%) 1; }
+.st-when { font-family: var(--sans); font-size: .8rem; font-weight: 600; letter-spacing: .03em; padding-top: .2rem; }
+@media (max-width: 600px) { .assess-steps li { grid-template-columns: 1fr; gap: .1rem; } }
+.assess-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.5rem; }
+@media (max-width: 800px) { .assess-cols { grid-template-columns: 1fr; } }
+.assess-cols ul { padding-left: 1.1rem; }
+.assess-cols li { font-size: .98rem; }
+.assess-close { border-top: 1px solid var(--ink); margin-top: 2rem; padding-top: .4rem; }
+.assess-close p { margin-top: .8rem; }
+
 /* ---------- bibliography ---------- */
 .bib { list-style: none; }
 .bib li { padding: .65rem .5rem; border-top: 1px solid var(--rule); display: grid; grid-template-columns: 11rem 1fr; gap: .2rem 1.2rem; font-size: .92rem; scroll-margin-top: calc(var(--bar-h) + 1.5rem); }

@@ -2154,17 +2154,55 @@
     ]
   },
   "assessment": {
-    "title": "One reading of the evidence",
+    "title": "The most likely story",
     "label": "A provisional judgment, offered for discussion",
-    "paragraphs": [
-      "“Only in Bezae” is the wrong frame. Bezae itself is weak evidence: its Greek text at this verse is late and mixed. But the reading it carries is old. Latin Italy and Syriac-speaking Mesopotamia both know it by the later fourth century, and the cheapest link between them is a second-century Greek text, perhaps carried east by Tatian.",
-      "That makes the real question a general one: how often does a single early “Western” strand preserve the original against everything else? The internal arguments do not settle it. The harder-reading argument is real, but its premise is contested; the synoptic argument is weaker than it looks; and the Syriac form is a double reading that presupposes compassion beside it.",
-      "On balance σπλαγχνισθείς is the more probable original — roughly two to one — with ὀργισθείς an early and respectable rival, not a scribal curiosity."
+    "verdict": "Mark most probably wrote “moved with compassion”. “Angry” is a very early alternative, about a century younger than the Gospel, that travelled both west and east.",
+    "odds": "Roughly two to one for compassion — a judgment, not a calculation.",
+    "steps": [
+      {
+        "when": "c. 70",
+        "reading": "compassion",
+        "text": "Mark writes σπλαγχνισθείς, “moved with compassion”."
+      },
+      {
+        "when": "2nd century",
+        "reading": "anger",
+        "text": "One Greek copy, probably in or near Rome, comes to read ὀργισθείς, “angry” — most likely under the pull of the stern verse 43, perhaps helped by a slip on a rare word."
+      },
+      {
+        "when": "c. 170",
+        "reading": "anger",
+        "text": "Tatian, who studied in Rome, carries the reading east in his Gospel harmony. In Italy it enters the Latin translation as iratus."
+      },
+      {
+        "when": "4th–5th century",
+        "reading": "both",
+        "text": "In Syria, “angry” meets the ordinary Syriac Gospels, which say “had compassion”, and the two are combined: the text Ephrem explains and the palimpsest preserves."
+      },
+      {
+        "when": "c. 400–600",
+        "reading": "anger",
+        "text": "Codex Bezae takes “angry” from its Latin page into its Greek. A corrector removes iratus from the last Latin manuscript around 600."
+      },
+      {
+        "when": "Throughout",
+        "reading": "compassion",
+        "text": "The Greek copy that began it leaves no descendants. Every other Greek manuscript, and the oldest Latin and Syriac translations, keep what Mark wrote."
+      }
     ],
-    "openQuestions": [
-      "How does the Old Syriac palimpsest render verse 43? If its “being angered” is a displaced ἐμβριμησάμενος, the Syriac ceases to be evidence for ὀργισθείς. Ephrem's use of both the rebuke word and the anger word tells against this, but the text itself is unpublished.",
-      "What does Bruehler (2025) make of the Syriac evidence and of Lorenz's monograph?",
-      "What do the coherence data for this variation unit in the ECM of Mark show?"
+    "weakLinks": [
+      "No fully convincing reason has been found for a copyist to turn compassion into anger. The reverse change is easier to imagine, and that remains the best argument for anger.",
+      "That Tatian carried the reading east is inferred from his biography. No ancient source says so."
+    ],
+    "wouldChange": [
+      "How the Old Syriac palimpsest words verse 43. If it has the ordinary “rebuked” there, its “being angered” in verse 41 is a true rendering of ὀργισθείς and anger gains ground. If not, the Syriac evidence falls away.",
+      "A second Greek manuscript with ὀργισθείς, or a papyrus of Mark 1 — none survives for this verse.",
+      "Bruehler's 2025 defence of anger, which answers the recent case for compassion and has not yet been weighed here."
+    ],
+    "closingTitle": "What to take away",
+    "closing": [
+      "Whichever word Mark wrote, both were read as Scripture: Ephrem expounded a Jesus who was angered, while the Greek-speaking churches heard of one moved with compassion. And the story itself holds both notes — a Jesus who touches the untouchable in verse 41 and sends him off sternly in verse 43. The variant sharpens a tension that Mark's text has either way.",
+      "The case is also a good picture of how the New Testament text is studied. Counting manuscripts settles nothing; one codex against sixteen hundred is not the real contest. The work is to ask where each reading was known, how it could have travelled, and which change a copyist was likelier to make — and then to say plainly how sure one is. Here the honest answer is: fairly, not fully. A page of erased Syriac at Sinai may yet decide it."
     ]
   },
   "bibliography": [

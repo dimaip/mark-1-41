@@ -571,9 +571,19 @@ function renderRest() {
       <article class="assess">
         <p class="assess-label">${esc(S.label)}</p>
         <h2>${esc(S.title)}</h2>
-        ${S.paragraphs.map(p => `<p>${rich(p)}</p>`).join('')}
-        <h3>Open questions</h3>
-        <ol>${S.openQuestions.map(q => `<li>${rich(q)}</li>`).join('')}</ol>
+        <p class="assess-verdict">${rich(S.verdict)}</p>
+        <p class="assess-odds">${rich(S.odds)}</p>
+        <ol class="assess-steps">${S.steps.map(s => `
+          <li class="r-${esc(s.reading)}"><span class="st-when">${esc(s.when)}</span><span class="st-text">${rich(s.text)}</span></li>`).join('')}
+        </ol>
+        <div class="assess-cols">
+          <div><h3>Where this story is weakest</h3><ul>${S.weakLinks.map(q => `<li>${rich(q)}</li>`).join('')}</ul></div>
+          <div><h3>What would change it</h3><ul>${S.wouldChange.map(q => `<li>${rich(q)}</li>`).join('')}</ul></div>
+        </div>
+        <div class="assess-close">
+          <h3>${esc(S.closingTitle)}</h3>
+          ${S.closing.map(p => `<p>${rich(p)}</p>`).join('')}
+        </div>
       </article>
     </div>`;
 
