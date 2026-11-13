@@ -449,7 +449,7 @@
     ]
   },
   "models": {
-    "intro": "Three accounts of how the tradition came to look this way. Each has to explain the same facts; they differ in where the change happened and in which direction. Select a model in the top bar to see which arguments support it and which strain it.",
+    "intro": "Four accounts of how the tradition came to look this way. Each has to explain the same facts; they differ in where the change happened and in which direction. Select a model in the top bar to see which arguments support it and which strain it.",
     "items": [
       {
         "id": "A",
@@ -821,7 +821,7 @@
         "variants": [
           {
             "title": "Where Taylor 2020 fits",
-            "text": "D. G. K. Taylor does not decide which reading is original. His point is narrower and affects all three models: the Syriac evidence shows ὀργισθείς was a real Greek reading, not a Latin accident."
+            "text": "D. G. K. Taylor does not decide which reading is original. His point is narrower and affects every model here: the Syriac evidence shows ὀργισθείς was a real Greek reading, not a Latin accident."
           }
         ]
       },
@@ -965,11 +965,144 @@
             "text": "Lorenz and Johnson argued that all support for anger is tied to Latin. Williams granted Ephrem's support but suggested that Tatian, who had studied in Rome, might have drawn on early Latin renderings. Taylor published the Old Syriac text in 2020."
           }
         ]
+      },
+      {
+        "id": "D",
+        "title": "An Aramaic source: “angry” was the first Greek wording, “compassion” restores the sense",
+        "short": "Yastrebov, building on Casey. The Aramaic behind the story had regaz, a word that can mean “was angry” or “was deeply stirred”. Mark first rendered it ὀργισθείς; Mark himself or an early editor then corrected it to σπλαγχνισθείς, and the corrected form became the ancestor of almost all copies.",
+        "stemma": {
+          "nodes": [
+            {
+              "id": "src",
+              "label": "Aramaic source: רגז regaz",
+              "date": "before 70",
+              "reading": "both",
+              "note": "“seethed”, “was deeply stirred” — in which sense, unknown"
+            },
+            {
+              "id": "mark",
+              "label": "Mark¹ translates",
+              "date": "c. 70",
+              "reading": "anger",
+              "note": "picks the commoner sense: ὀργισθείς"
+            },
+            {
+              "id": "mtlk",
+              "label": "Matthew, Luke",
+              "date": "c. 80–90",
+              "reading": "none"
+            },
+            {
+              "id": "corr",
+              "label": "Mark² or an early editor",
+              "date": "1st–2nd century",
+              "reading": "compassion",
+              "note": "corrects the sense: σπλαγχνισθείς"
+            },
+            {
+              "id": "main",
+              "label": "Ancestor of nearly all Greek manuscripts and versions",
+              "date": "",
+              "reading": "compassion"
+            },
+            {
+              "id": "west",
+              "label": "The first form survives in a “Western” strand",
+              "date": "2nd century",
+              "reading": "anger",
+              "note": "implied by the lecture, not drawn in its diagram"
+            },
+            {
+              "id": "syr",
+              "label": "Tatian → Ephrem, sy-F",
+              "date": "before 373",
+              "reading": "both"
+            },
+            {
+              "id": "lat",
+              "label": "Italian Old Latin → Codex Bezae",
+              "date": "later 4th century – c. 400",
+              "reading": "anger"
+            }
+          ],
+          "edges": [
+            [
+              "src",
+              "mark"
+            ],
+            [
+              "mark",
+              "mtlk"
+            ],
+            [
+              "mark",
+              "corr"
+            ],
+            [
+              "corr",
+              "main"
+            ],
+            [
+              "mark",
+              "west"
+            ],
+            [
+              "west",
+              "syr"
+            ],
+            [
+              "west",
+              "lat"
+            ]
+          ]
+        },
+        "explains": [
+          "Why “angry” stands in the story at all without any stated cause: it is a translator's choice between two senses of one word, not a report of Jesus' mood.",
+          "Why σπλαγχνισθείς fits the scene so well. On this account it is not a lucky substitute but a deliberate correction back to what the source meant — which answers Williams's “too convenient” objection to the anger reading.",
+          "Why the change needs no embarrassed scribes. The motive is accuracy, so it does not matter that copyists elsewhere leave Jesus' anger alone.",
+          "Why Matthew and Luke have no emotion word, if they knew the first form.",
+          "Why nearly every witness has compassion: a revised edition, not a scattering of scribal changes, stands at the head of the tradition. The lecture's wider point is that an early revision which became the ancestor of everything “will look to us like the initial text”."
+        ],
+        "costs": [
+          "The second sense of regaz. Trembling, agitation and distress are attested for the root; “stirred with pity” specifically is not securely so. The ordinary Aramaic and Syriac word for compassion is from rḥm, which is what the Syriac Gospels use here.",
+          "It needs a written Aramaic source behind this story, which many doubt for Mark.",
+          "It needs two forms of Mark, with the earlier one surviving only in one “Western” strand. Yet Bezae, the single Greek witness, has a late and mixed text at this verse and probably took the word from its Latin page.",
+          "Like Model A, it requires the correction to stand upstream of every other Greek line and of the oldest Latin, Syriac and Coptic.",
+          "It cannot be tested against any surviving document — a limit the lecture itself states plainly: this may recover “the history of the wording, but not yet the history of the meaning”."
+        ],
+        "holders": [
+          {
+            "name": "Maurice Casey",
+            "year": 2010,
+            "note": "“The Aramaic source will have read regaz. This word often does mean ‘be angry’, which is why Mark translated it with orgistheis. But the Aramaic regaz has a wider range of meaning … including ‘tremble’ and ‘be deeply moved’.” Mark “did not mean that Jesus was angry”: he suffered from bilingual interference (Jesus of Nazareth, p. 63).",
+            "basis": "reported"
+          },
+          {
+            "name": "Gleb Yastrebov",
+            "year": 2026,
+            "note": "Simplifies Casey: no unusual meaning of ὀργίζομαι in Mark's mind is needed, only an ordinary wrong choice between two senses, later corrected by Mark or his first editors. Offered as one competing scenario, not a proof.",
+            "basis": "read"
+          }
+        ],
+        "variants": [
+          {
+            "title": "How this differs from Casey",
+            "text": "Casey holds that Mark wrote ὀργισθείς and meant “deeply moved” by it; the Greek word is original and no correction is involved. Yastrebov finds that needlessly complicated: Mark simply chose the wrong sense, and the tradition's σπλαγχνισθείς is the repair."
+          },
+          {
+            "title": "How this differs from the older Aramaic theory",
+            "text": "The theory dismissed under T4 confuses two different words that look alike (ethraḥam / ethraʿem). This one involves a single word with two senses and a translator's choice, so the objections to T4 do not touch it."
+          },
+          {
+            "title": "Details in the lecture to correct",
+            "text": "(1) it r¹ is Codex Usserianus Primus (Dublin, c. 600), not Codex Schlettstadtensis. (2) The Diatessaron does not prove that “angry” alone stood in a mid-second-century text: Ephrem's text had both words, and the Arabic Diatessaron has compassion. (3) Bezae's Latin column probably does not “confirm” its Greek; the Greek more likely follows the Latin (Johnson 2017; Lorenz 2021). (4) The footnote reproduced from Keener as a list of scholars who prefer “angry” begins “Favoring this reading” and names Metzger, Stein, Donahue and Harrington, Collins, Lorenz and Johnson — all defenders of compassion. (5) Casey's Jesus of Nazareth appeared in 2010, not 2008. (6) To add: the Old Syriac palimpsest published by Taylor 2020, which postdates UBS5."
+          }
+        ]
       }
     ]
   },
   "arguments": {
-    "intro": "Each argument is given with the case for it, the replies, and where the reasoning currently stands. The markers show how each one bears on the three transmission models.",
+    "intro": "Each argument is given with the case for it, the replies, and where the reasoning currently stands. The markers show how each one bears on the four transmission models.",
     "groups": [
       {
         "id": "external",
@@ -1014,7 +1147,8 @@
             "bearsOn": {
               "A": "strains",
               "B": "supports",
-              "C": "supports"
+              "C": "supports",
+              "D": "strains"
             }
           },
           {
@@ -1050,7 +1184,8 @@
             "bearsOn": {
               "A": "strains",
               "B": "neutral",
-              "C": "supports"
+              "C": "supports",
+              "D": "strains"
             }
           },
           {
@@ -1102,11 +1237,12 @@
                 "basis": "read"
               }
             ],
-            "status": "Bezae on its own proves little either way. Johnson's spelling data make the Latin the likeliest source of Bezae's own ὀργισθείς, which fits all three models. The case for an early Greek ὀργισθείς rests on the Latin–Syriac agreement, not on Bezae.",
+            "status": "Bezae on its own proves little either way. Johnson's spelling data make the Latin the likeliest source of Bezae's own ὀργισθείς, which fits every model here. The case for an early Greek ὀργισθείς rests on the Latin–Syriac agreement, not on Bezae.",
             "bearsOn": {
               "A": "strains",
               "B": "neutral",
-              "C": "supports"
+              "C": "supports",
+              "D": "strains"
             }
           },
           {
@@ -1162,7 +1298,8 @@
             "bearsOn": {
               "A": "supports",
               "B": "supports",
-              "C": "strains"
+              "C": "strains",
+              "D": "supports"
             }
           },
           {
@@ -1203,7 +1340,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "neutral"
             }
           },
           {
@@ -1229,7 +1367,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "supports"
+              "C": "supports",
+              "D": "neutral"
             }
           }
         ]
@@ -1294,7 +1433,8 @@
             "bearsOn": {
               "A": "supports",
               "B": "strains",
-              "C": "strains"
+              "C": "strains",
+              "D": "supports"
             }
           },
           {
@@ -1340,7 +1480,8 @@
             "bearsOn": {
               "A": "strains",
               "B": "supports",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "strains"
             }
           },
           {
@@ -1381,7 +1522,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "supports",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "neutral"
             }
           },
           {
@@ -1417,7 +1559,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "neutral"
             }
           },
           {
@@ -1453,7 +1596,72 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "supports"
+              "C": "supports",
+              "D": "neutral"
+            }
+          },
+          {
+            "id": "T6",
+            "title": "One Aramaic word with two senses",
+            "claim": "The source had regaz; “angry” is a translator's choice of the wrong sense, and “compassion” corrects it.",
+            "favours": "anger",
+            "pro": [
+              {
+                "text": "“The Aramaic regaz has a wider range of meaning than ‘be angry’, including ‘tremble’ and ‘be deeply moved’.” Mark's Greek here is “a literal and unrevised translation of an Aramaic source”.",
+                "ref": "Casey 2010, p. 63, as reproduced in Yastrebov 2026",
+                "basis": "reported"
+              },
+              {
+                "text": "A simpler form: the source meant “was stirred”; Mark took the commoner sense and wrote ὀργισθείς; Mark or his first editors then corrected it. This needs only an ordinary mistranslation.",
+                "ref": "Yastrebov 2026",
+                "basis": "read"
+              },
+              {
+                "text": "Ancient texts were routinely revised by their authors and heirs, and an early revised form that became the ancestor of the whole tradition would be indistinguishable, for us, from the original.",
+                "ref": "Yastrebov 2026",
+                "basis": "read"
+              },
+              {
+                "text": "It explains the perfect fit of σπλαγχνισθείς, which defenders of compassion press against the anger reading, without appeal to coincidence.",
+                "ref": "cf. Williams 2012, pp. 7–8",
+                "basis": "read"
+              }
+            ],
+            "contra": [
+              {
+                "text": "The senses attested for the root are trembling, agitation and anger. “Moved with pity” is a further step; the regular word for that is from rḥm, as in every Syriac version of this verse.",
+                "ref": "Taylor 2020 (Syriac wording)",
+                "basis": "read"
+              },
+              {
+                "text": "The Syriac tradition, which uses rgez as its normal word for ὀργίζομαι, does not use it here; its anger word is mpār.",
+                "ref": "Johnson 2017, p. 189; Taylor 2020",
+                "basis": "read"
+              },
+              {
+                "text": "Explanations from Aramaic are judged improbable by scholars on both sides, though they have the older two-word theory in view.",
+                "ref": "Ehrman 2003, p. 128; Williams 2012, p. 5",
+                "basis": "read"
+              },
+              {
+                "text": "A first edition surviving only through Bezae is hard to square with the late, mixed and Latin-dependent character of Bezae's Greek at this verse.",
+                "ref": "Lorenz 2021; Johnson 2017, pp. 199–201",
+                "basis": "read"
+              }
+            ],
+            "rejoinder": [
+              {
+                "text": "The lecture claims no more than a possible history of the wording: “we are dealing not with proofs but with competing scenarios.”",
+                "ref": "Yastrebov 2026",
+                "basis": "read"
+              }
+            ],
+            "status": "The most economical account of how both words could be early, and the only anger-first theory that explains why compassion fits. It stands or falls on whether regaz can bear the sense required.",
+            "bearsOn": {
+              "A": "neutral",
+              "B": "strains",
+              "C": "neutral",
+              "D": "supports"
             }
           }
         ]
@@ -1582,7 +1790,8 @@
             "bearsOn": {
               "A": "supports",
               "B": "strains",
-              "C": "strains"
+              "C": "strains",
+              "D": "supports"
             }
           },
           {
@@ -1618,7 +1827,8 @@
             "bearsOn": {
               "A": "strains",
               "B": "supports",
-              "C": "supports"
+              "C": "supports",
+              "D": "strains"
             }
           }
         ]
@@ -1676,7 +1886,8 @@
             "bearsOn": {
               "A": "supports",
               "B": "neutral",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "neutral"
             }
           },
           {
@@ -1738,7 +1949,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "supports"
             }
           },
           {
@@ -1763,7 +1975,8 @@
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
-              "C": "neutral"
+              "C": "neutral",
+              "D": "neutral"
             }
           }
         ]
@@ -2036,6 +2249,13 @@
             "basis": "reported"
           },
           {
+            "name": "Casey",
+            "year": 2010,
+            "side": "anger",
+            "note": "but meaning “deeply moved” (Aramaic regaz)",
+            "basis": "reported"
+          },
+          {
             "name": "Cate",
             "year": 2011,
             "side": "compassion",
@@ -2103,6 +2323,13 @@
             "year": 2025,
             "side": "anger",
             "basis": "abstract"
+          },
+          {
+            "name": "Yastrebov",
+            "year": 2026,
+            "side": "anger",
+            "note": "as Mark's first wording, later corrected to compassion",
+            "basis": "read"
           }
         ]
       }
@@ -2191,7 +2418,7 @@
       }
     ],
     "weakLinks": [
-      "No fully convincing reason has been found for a copyist to turn compassion into anger. The reverse change is easier to imagine, and that remains the best argument for anger.",
+      "No fully convincing reason has been found for a copyist to turn compassion into anger. The reverse change is easier to imagine, and that remains the best argument for anger. Model D answers exactly this point, at the price of an Aramaic source and a first edition of Mark.",
       "That Tatian carried the reading east is inferred from his biography. No ancient source says so."
     ],
     "wouldChange": [
@@ -2212,12 +2439,6 @@
       "basis": "reported"
     },
     {
-      "key": "Bąk 2018",
-      "cite": "Tomasz Bąk, article on Mark 1:41, Verbum Vitae 34 (2018): 215–247.",
-      "url": "https://czasopisma.kul.pl/vv/article/view/1909",
-      "basis": "abstract"
-    },
-    {
       "key": "Beavis 2011",
       "cite": "Mary Ann Beavis, Mark. Paideia. Grand Rapids: Baker Academic, 2011.",
       "basis": "read"
@@ -2232,6 +2453,17 @@
       "cite": "Bart B. Bruehler, “The Presence, Nature, Cause, and Result of Jesus's Anger in Mark 1:40–45,” Harvard Theological Review 118.4 (2025): 640–664.",
       "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/presence-nature-cause-and-result-of-jesuss-anger-in-mark-14045/E917B884E0E93A7CA7BEEAA8AC3EA22E",
       "basis": "abstract"
+    },
+    {
+      "key": "Bąk 2018",
+      "cite": "Tomasz Bąk, article on Mark 1:41, Verbum Vitae 34 (2018): 215–247.",
+      "url": "https://czasopisma.kul.pl/vv/article/view/1909",
+      "basis": "abstract"
+    },
+    {
+      "key": "Casey 2010",
+      "cite": "Maurice Casey, Jesus of Nazareth: An Independent Historian's Account of His Life and Teaching. London: T&T Clark, 2010, p. 63. Seen as reproduced in Yastrebov's lecture.",
+      "basis": "reported"
     },
     {
       "key": "Cate 2011",
@@ -2382,6 +2614,11 @@
       "key": "Willker",
       "cite": "Wieland Willker, A Textual Commentary on the Greek Gospels, vol. 2: Mark (online).",
       "url": "http://www.willker.de/wie/TCG/TC-Mark.pdf",
+      "basis": "read"
+    },
+    {
+      "key": "Yastrebov 2026",
+      "cite": "Gleb Yastrebov, “Textual Criticism of the New Testament”, lecture 3 in the course Exegesis and Textual Study of the Bible (in Russian; unpublished lecture text, 2026), example 2: “The ‘angered’ (?) Jesus”.",
       "basis": "read"
     }
   ]

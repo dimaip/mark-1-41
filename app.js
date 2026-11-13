@@ -95,7 +95,7 @@ const state = {
   sort: 'order',
   open: new Set()
 };
-if (!['A', 'B', 'C'].includes(state.model)) state.model = '';
+if (!['A', 'B', 'C', 'D'].includes(state.model)) state.model = '';
 
 /* ---------- masthead & footer ---------- */
 
@@ -447,7 +447,7 @@ function argItem(a) {
       </div>
       ${a.rejoinder ? `<div class="rejoinder"><h4>Rejoinder</h4><ul>${a.rejoinder.map(point).join('')}</ul></div>` : ''}
       <p class="status"><span class="lbl">Where it stands</span> ${rich(a.status)}</p>
-      <p class="bears-all"><span class="lbl">Bearing on the models</span> ${['A', 'B', 'C'].map(m => bearTag(a.bearsOn[m], m)).join(' ')}</p>
+      <p class="bears-all"><span class="lbl">Bearing on the models</span> ${['A', 'B', 'C', 'D'].map(m => bearTag(a.bearsOn[m], m)).join(' ')}</p>
     </div>
   </li>`;
 }
