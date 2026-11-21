@@ -646,8 +646,8 @@
           {
             "name": "Bart Bruehler",
             "year": 2025,
-            "note": "Most recent defence of the anger reading.",
-            "basis": "abstract"
+            "note": "Jesus is angry because the request threatens his preaching mission (1:38), which is what then happens (1:45).",
+            "basis": "read"
           }
         ],
         "variants": [
@@ -1270,6 +1270,16 @@
                 "text": "The same rare root, as mpār, stands in the Old Syriac palimpsest at Mark 1:41 itself, and the verb “is regularly used in Syriac with the meaning ‘to be angry, angered’”. Johnson's two objections were written before this was known.",
                 "ref": "Taylor 2020, pp. 21–22",
                 "basis": "read"
+              },
+              {
+                "text": "Ephrem reports other interpreters who explained the anger differently, some saying it was directed at the leprosy itself (Commentary 12.23). The anger was in a text they shared, not a device of Ephrem's own.",
+                "ref": "Bruehler 2025, pp. 644–45",
+                "basis": "read"
+              },
+              {
+                "text": "Ephrem's students edited and added to the Commentary in two stages, so arguments from the consistency of its wording are insecure.",
+                "ref": "Bruehler 2025, p. 644 n. 18, citing Lange 2008",
+                "basis": "read"
               }
             ],
             "contra": [
@@ -1393,6 +1403,11 @@
                 "text": "The reading “is so striking and ‘improbable’ that a correction to the ‘safer’ σπλαγχνισθείς would be very natural”.",
                 "ref": "France 2002, p. 115",
                 "basis": "read"
+              },
+              {
+                "text": "Origen, using Stoic theory, allows Jesus and his followers only the first stirrings of emotion (propatheia), not full grief or anger. An angry Jesus needed explaining to philosophically minded readers.",
+                "ref": "Bruehler 2025, pp. 643–44",
+                "basis": "read"
               }
             ],
             "contra": [
@@ -1515,6 +1530,11 @@
               {
                 "text": "Even Williams, who defends compassion, judges this explanation “slim”.",
                 "ref": "Williams 2012, p. 5",
+                "basis": "read"
+              },
+              {
+                "text": "With a dative and following speech, ἐμβριμάομαι means a stern order, not an emotion, which gives verse 43 less pull toward anger.",
+                "ref": "Bruehler 2025, p. 659 n. 99",
                 "basis": "read"
               }
             ],
@@ -1880,6 +1900,11 @@
                 "text": "The same harshness is what would lead a copyist to write anger in v. 41 (see “Pulled in from verse 43”).",
                 "ref": "Metzger",
                 "basis": "reported"
+              },
+              {
+                "text": "With a dative and following speech, ἐμβριμάομαι denotes a forceful order or rebuke (LXX Dan 11:30; Matt 9:30; Mark 14:5), not an inner state; the “snorting” sense belongs to uses without speech. A defender of anger concedes that verse 43 does not itself show it.",
+                "ref": "Bruehler 2025, pp. 659–60",
+                "basis": "read"
               }
             ],
             "status": "Cuts both ways: coherence for one side, a source of contamination for the other.",
@@ -1914,7 +1939,7 @@
               },
               {
                 "text": "At the interruption of his preaching mission",
-                "who": "rejected by Hooker, France, Ehrman"
+                "who": "Bruehler (after Lane, Loader); rejected by Hooker, France, Ehrman"
               },
               {
                 "text": "It is the leper who is angry",
@@ -1943,9 +1968,19 @@
                 "text": "In no other Markan story is Jesus angry with the person asking for help; he is patient even with the doubting father of 9:22–24, while this leper is sure he can heal.",
                 "ref": "Johnson 2017, p. 187; Williams 2012, p. 11",
                 "basis": "read"
+              },
+              {
+                "text": "Mark's narrative supplies the cause: Jesus has just left the Capernaum crowds to preach elsewhere (1:38) when a public request for a spectacular cure threatens to bring them back, as it does (1:45; 2:1–2). The anger is at the situation, not the man.",
+                "ref": "Bruehler 2025, pp. 655–58",
+                "basis": "read"
+              },
+              {
+                "text": "ἐάν θέλῃς is a prospective condition that expects fulfilment; it is not used to question the subject's willingness, and Matthew and Luke keep it. This tells against the view that the leper doubted Jesus.",
+                "ref": "Bruehler 2025, p. 655",
+                "basis": "read"
               }
             ],
-            "status": "No agreed answer among those who accept anger.",
+            "status": "No agreed answer among those who accept anger. The fullest recent case (Bruehler) finds the cause in Mark's own narrative, but the easier the anger is to explain, the weaker the harder-reading argument becomes.",
             "bearsOn": {
               "A": "neutral",
               "B": "neutral",
@@ -2322,7 +2357,7 @@
             "name": "Bruehler",
             "year": 2025,
             "side": "anger",
-            "basis": "abstract"
+            "basis": "read"
           },
           {
             "name": "Yastrebov",
@@ -2423,8 +2458,7 @@
     ],
     "wouldChange": [
       "How the Old Syriac palimpsest words verse 43. If it has the ordinary “rebuked” there, its “being angered” in verse 41 is a true rendering of ὀργισθείς and anger gains ground. If not, the Syriac evidence falls away.",
-      "A second Greek manuscript with ὀργισθείς, or a papyrus of Mark 1 — none survives for this verse.",
-      "Bruehler's 2025 defence of anger, which answers the recent case for compassion and has not yet been weighed here."
+      "A second Greek manuscript with ὀργισθείς, or a papyrus of Mark 1 — none survives for this verse."
     ],
     "closingTitle": "What to take away",
     "closing": [
@@ -2452,7 +2486,7 @@
       "key": "Bruehler 2025",
       "cite": "Bart B. Bruehler, “The Presence, Nature, Cause, and Result of Jesus's Anger in Mark 1:40–45,” Harvard Theological Review 118.4 (2025): 640–664.",
       "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/presence-nature-cause-and-result-of-jesuss-anger-in-mark-14045/E917B884E0E93A7CA7BEEAA8AC3EA22E",
-      "basis": "abstract"
+      "basis": "read"
     },
     {
       "key": "Bąk 2018",
