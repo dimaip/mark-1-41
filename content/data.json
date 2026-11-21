@@ -1180,7 +1180,7 @@
                 "basis": "read"
               }
             ],
-            "status": "The Latin witnesses do collapse into one. The Syriac evidence, published later, is what keeps the anger reading from being purely local.",
+            "status": "The Latin witnesses do collapse into one. The Syriac evidence, published later, is what keeps the anger reading from being purely local. Even the Syriac counts as separate only if it did not reach Syria from the same Western text, for example through Tatian (see “The Syriac evidence”).",
             "bearsOn": {
               "A": "strains",
               "B": "neutral",
@@ -1301,6 +1301,11 @@
               {
                 "text": "The Syriac form is a double reading. It presupposes a text with compassion and so is not evidence for anger instead of compassion.",
                 "ref": "cf. Johnson 2017, pp. 191–92 (Ephrem knew “compassion”)",
+                "basis": "read"
+              },
+              {
+                "text": "If Tatian, who studied in Rome, brought the reading east in his harmony, the Syriac is not a second independent region but the same Western strand, carried to Syria by one man. The reading would still have to be in the Gospel text Tatian used by c. 170, almost certainly a Greek one, since Roman Christians then wrote in Greek and the Latin Gospels are later. Its spread east and west would no longer count as separate witnesses. (This route is inferred from Tatian's career; no ancient source says so.)",
+                "ref": "",
                 "basis": "read"
               }
             ],
