@@ -454,7 +454,7 @@
       {
         "id": "A",
         "title": "Anger is original",
-        "short": "Mark wrote ὀργισθείς; an early correction to σπλαγχνισθείς took over almost everywhere.",
+        "short": "Mark wrote ὀργισθείς; an early correction to σπλαγχνισθείς spread from copy to copy until it took over almost everywhere.",
         "stemma": {
           "nodes": [
             {
@@ -472,10 +472,10 @@
             },
             {
               "id": "corr",
-              "label": "Early correction",
+              "label": "Early correction, copied across lines",
               "date": "2nd century",
               "reading": "compassion",
-              "note": "one pious change, upstream of most later copies"
+              "note": "one pious change, passed from copy to copy into every line but the Western one; not a common ancestor of those lines"
             },
             {
               "id": "main",
@@ -516,6 +516,10 @@
             ],
             [
               "mark",
+              "main"
+            ],
+            [
+              "mark",
               "corr"
             ],
             [
@@ -551,7 +555,8 @@
           "Why anger turns up in both Latin and Syriac: both inherit an old Greek text."
         ],
         "costs": [
-          "The correction must have happened early enough to stand upstream of every other Greek line and of the oldest Latin, Syriac and Coptic branches.",
+          "The correction cannot be a single copy from which all the other lines descend. Such a copy would have passed on its own slips as well, and the Western witnesses would often be right against everyone else in Mark. They rarely are. So the one reading must have spread from copy to copy, reaching every other Greek line and the oldest Latin, Syriac and Coptic branches by the late 2nd century.",
+          "If Matthew 20:34 echoes σπλαγχνισθείς from Mark 1:41 (see “Matthew reuses the scene elsewhere”), the correction was already in Matthew's copy c. 80–90, within a decade or two of Mark.",
           "No Greek trace survives outside one bilingual codex whose Greek text is late and mixed at this very verse.",
           "Scribes left Jesus' anger untouched at Mark 3:5 and his indignation at 10:14."
         ],
